@@ -13,7 +13,9 @@
       "repository": "https://github.com/Chocobo1/nppAutoDetectIndent/releases/download/2.3/arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "nppAutoDetectIndent"
+      "upstreamFolderName": "nppAutoDetectIndent",
+      "conversionStatus": "easy",
+      "conversionNote": "Text processing — detect tab/space indentation patterns. Can be reimplemented as a Python/shell script that reads the buffer and toggles tab settings."
     },
     {
       "identifier": "autosave",
@@ -25,7 +27,9 @@
       "repository": "https://github.com/francostellari/NppPlugins/raw/main/AutoSave/AutoSave_dll_2v00_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "AutoSave"
+      "upstreamFolderName": "AutoSave",
+      "conversionStatus": "medium",
+      "conversionNote": "File system monitoring + timer. macOS has equivalent APIs (FSEvents, dispatch timer). Need native Swift implementation."
     },
     {
       "identifier": "nppchineseconverter",
@@ -37,7 +41,9 @@
       "repository": "https://github.com/lkk9898969/Npp_ChineseConverter/releases/download/v1.0.2/NppChineseConverter-ARM64.zip",
       "nppMacCompatibleVersions": "[8.4.3,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppChineseConverter"
+      "upstreamFolderName": "NppChineseConverter",
+      "conversionStatus": "easy",
+      "conversionNote": "Text transformation — Traditional/Simplified Chinese conversion. Can use open-source libraries (OpenCC) via command-line wrapper."
     },
     {
       "identifier": "collectioninterface",
@@ -49,7 +55,9 @@
       "repository": "https://github.com/pryrt/NppPlugin-CollectionInterface/releases/download/v1.3.0/CollectionInterface_v1.3.0_ARM64.zip",
       "nppMacCompatibleVersions": "[8.5,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "CollectionInterface"
+      "upstreamFolderName": "CollectionInterface",
+      "conversionStatus": "medium",
+      "conversionNote": "Downloads UDL/themes from GitHub. Needs URLSession + JSON parsing — native Swift rewrite needed."
     },
     {
       "identifier": "compareplus",
@@ -61,7 +69,9 @@
       "repository": "https://github.com/pnedev/comparePlus/releases/download/cp_3.0.0/ComparePlus_cp_3.0.0_ARM64.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "ComparePlus"
+      "upstreamFolderName": "ComparePlus",
+      "conversionStatus": "medium",
+      "conversionNote": "Text diff algorithm. Could use diffutils (command-line) or implement native diff view. Complex UI required."
     },
     {
       "identifier": "dark_mode_c",
@@ -73,7 +83,9 @@
       "repository": "https://github.com/pullitall/Notepadpp-light-dark-switch-and-automatic-switch-based-on-location/releases/download/v1.0.3/DARK_MODE_NPP_v1.0.3_ARM64.zip",
       "nppMacCompatibleVersions": "[8.0,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "dark_mode_C"
+      "upstreamFolderName": "dark_mode_C",
+      "conversionStatus": "builtin",
+      "conversionNote": "NotepadMac already supports macOS native dark/light mode switching via system appearance."
     },
     {
       "identifier": "discordrpc",
@@ -85,7 +97,9 @@
       "repository": "https://github.com/Zukaritasu/notepadpp_rpc/releases/download/v2.1.7/DiscordRPC_v2.1.7_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "DiscordRPC"
+      "upstreamFolderName": "DiscordRPC",
+      "conversionStatus": "hard",
+      "conversionNote": "Discord Rich Presence requires Discord SDK integration. macOS Discord SDK exists but needs native Swift implementation."
     },
     {
       "identifier": "emojidescription",
@@ -97,7 +111,9 @@
       "repository": "https://github.com/Ruberoid/npp_emoji_description/releases/download/v0.1.0/EmojiDescription_arm64_v0.1.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "EmojiDescription"
+      "upstreamFolderName": "EmojiDescription",
+      "conversionStatus": "easy",
+      "conversionNote": "Character info display — Unicode code point, UTF-8 bytes. Can be reimplemented as buffer analysis script."
     },
     {
       "identifier": "fwdataviz",
@@ -109,7 +125,9 @@
       "repository": "https://github.com/shriprem/FWDataViz/releases/download/v2.6.7.0/FWDataViz_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "FWDataViz"
+      "upstreamFolderName": "FWDataViz",
+      "conversionStatus": "medium",
+      "conversionNote": "Fixed-width data visualization with columns/fields. Complex UI, needs native Swift table view implementation."
     },
     {
       "identifier": "gotolinecol",
@@ -121,7 +139,9 @@
       "repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.5.1/GotoLineCol_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "GotoLineCol"
+      "upstreamFolderName": "GotoLineCol",
+      "conversionStatus": "builtin",
+      "conversionNote": "NotepadMac already supports Go to Line/Column (Cmd+L dialog)."
     },
     {
       "identifier": "hexeditor",
@@ -133,7 +153,9 @@
       "repository": "https://github.com/chcg/NPP_HexEditor/releases/download/0.9.14/HexEditor_0.9.14_ARM64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "HexEditor"
+      "upstreamFolderName": "HexEditor",
+      "conversionStatus": "medium",
+      "conversionNote": "Binary file editing with hex view. Could leverage Scintilla hex display mode or implement native hex editor view."
     },
     {
       "identifier": "htmltag",
@@ -145,7 +167,9 @@
       "repository": "https://github.com/rdipardo/nppHTMLTag/releases/download/v1.6.0/HTMLTag_v1.6.0_arm64.zip",
       "nppMacCompatibleVersions": "[8.3,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "HTMLTag"
+      "upstreamFolderName": "HTMLTag",
+      "conversionStatus": "easy",
+      "conversionNote": "HTML/XML tag navigation (jump to matching tag). Text analysis — can be reimplemented as search/match script."
     },
     {
       "identifier": "nppjsonviewer",
@@ -157,7 +181,9 @@
       "repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.2.0.0/NppJSONViewer_ARM64_Release.zip",
       "nppMacCompatibleVersions": "[8.4.5,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NPPJSONViewer"
+      "upstreamFolderName": "NPPJSONViewer",
+      "conversionStatus": "easy",
+      "conversionNote": "JSON tree view viewer. Can use python json.tool or jq as formatting backend, tree view needs native UI."
     },
     {
       "identifier": "jsminnpp",
@@ -169,7 +195,9 @@
       "repository": "https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.25.11.16.uni.arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "JSMinNPP"
+      "upstreamFolderName": "JSMinNPP",
+      "conversionStatus": "easy",
+      "conversionNote": "JS formatting/minification. Can use external tools (js-beautify, terser) via command-line wrapper."
     },
     {
       "identifier": "language_selector",
@@ -181,7 +209,9 @@
       "repository": "https://github.com/hassaine-abdellah/npp-language-selector/releases/download/v1.2/plugin_dll_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "Language_Selector"
+      "upstreamFolderName": "Language_Selector",
+      "conversionStatus": "builtin",
+      "conversionNote": "NotepadMac already has Language menu with auto-detection and manual selection."
     },
     {
       "identifier": "languagehelp",
@@ -193,7 +223,9 @@
       "repository": "https://github.com/francostellari/NppPlugins/raw/main/LanguageHelp/LanguageHelp_dll_1v75_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "LanguageHelp"
+      "upstreamFolderName": "LanguageHelp",
+      "conversionStatus": "medium",
+      "conversionNote": "Language-specific help file viewer. Needs native macOS help viewer integration or custom panel."
     },
     {
       "identifier": "linter++",
@@ -205,7 +237,9 @@
       "repository": "https://github.com/ThosRTanner/notepad-pp-linter/releases/download/1.0.3/plugin_dll_ARM64.zip",
       "nppMacCompatibleVersions": "[8.7.5,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "Linter++"
+      "upstreamFolderName": "Linter++",
+      "conversionStatus": "easy",
+      "conversionNote": "Real-time code linting. Can integrate external linters (eslint, pylint, shellcheck) via command-line wrapper."
     },
     {
       "identifier": "markdowntableeditor",
@@ -217,7 +251,9 @@
       "repository": "https://github.com/krotname/NppMarkdownTableEditor/releases/download/v11.0.0/MarkdownTableEditor-11.0.0-arm64-pluginadmin.zip",
       "nppMacCompatibleVersions": "[8.3.1,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "MarkdownTableEditor"
+      "upstreamFolderName": "MarkdownTableEditor",
+      "conversionStatus": "medium",
+      "conversionNote": "Markdown table alignment/editing. Text processing but needs interactive table editing UI."
     },
     {
       "identifier": "menuicons",
@@ -229,7 +265,9 @@
       "repository": "https://github.com/francostellari/NppPlugins/raw/main/MenuIcons/MenuIcons_dll_2v07_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "MenuIcons"
+      "upstreamFolderName": "MenuIcons",
+      "conversionStatus": "hard",
+      "conversionNote": "Adds icons to menus. Windows-specific resource/icon handling, macOS has different icon system."
     },
     {
       "identifier": "mimetools",
@@ -241,7 +279,9 @@
       "repository": "https://github.com/npp-plugins/mimetools/releases/download/v3.1/mimetools.v3.1.arm64.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "mimeTools"
+      "upstreamFolderName": "mimeTools",
+      "conversionStatus": "easy",
+      "conversionNote": "MIME encoding/decoding (Base64, quoted-printable). Standard text transforms — shell script possible."
     },
     {
       "identifier": "multireplace",
@@ -253,7 +293,9 @@
       "repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/6.0.0.36/MultiReplace-v6.0.0.36-ARM64.zip",
       "nppMacCompatibleVersions": "[8.5.4,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "MultiReplace"
+      "upstreamFolderName": "MultiReplace",
+      "conversionStatus": "medium",
+      "conversionNote": "Multi-pattern search/replace across files. Complex regex UI — needs native Swift find/replace panel extension."
     },
     {
       "identifier": "nesteddsv",
@@ -265,7 +307,9 @@
       "repository": "https://github.com/shriprem/NestedDSV/releases/download/v1.1.0.1/NestedDSV_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NestedDSV"
+      "upstreamFolderName": "NestedDSV",
+      "conversionStatus": "medium",
+      "conversionNote": "Hierarchical DSV visualization. Complex table UI, similar to FWDataViz."
     },
     {
       "identifier": "nppbplistplugin",
@@ -277,7 +321,9 @@
       "repository": "https://github.com/azerg/NppBplistPlugin/releases/download/3.0.0.0/NppBplistPlugin_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppBplistPlugin"
+      "upstreamFolderName": "NppBplistPlugin",
+      "conversionStatus": "medium",
+      "conversionNote": "Binary plist viewer/editor. macOS has plutil command-line tool — wrapper possible, but full editing needs native code."
     },
     {
       "identifier": "nppplugindemo",
@@ -289,7 +335,9 @@
       "repository": "https://github.com/npp-plugins/plugindemo/releases/download/v4.5/pluginDemo.v4.5.bin.arm64.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppPluginDemo"
+      "upstreamFolderName": "NppPluginDemo",
+      "conversionStatus": "n/a",
+      "conversionNote": "Demo/template plugin — no conversion needed, serves as reference for macOS plugin development."
     },
     {
       "identifier": "nppplugintemplate",
@@ -301,7 +349,9 @@
       "repository": "https://github.com/npp-plugins/plugintemplate/releases/download/v4.4/pluginTemplate.v4.4.bin.arm64.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppPluginTemplate"
+      "upstreamFolderName": "NppPluginTemplate",
+      "conversionStatus": "n/a",
+      "conversionNote": "Template for plugin development — can create macOS equivalent template."
     },
     {
       "identifier": "nppconverter",
@@ -313,7 +363,9 @@
       "repository": "https://github.com/npp-plugins/converter/releases/download/v4.7/nppConvert.v4.7.arm64.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "nppConverter"
+      "upstreamFolderName": "nppConverter",
+      "conversionStatus": "easy",
+      "conversionNote": "ASCII↔Hex conversion. Simple text transform — trivial shell script."
     },
     {
       "identifier": "nppcrosscheck",
@@ -325,7 +377,9 @@
       "repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.2.0/NppCrossCheck_arm64.zip",
       "nppMacCompatibleVersions": "[8.4,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppCrossCheck"
+      "upstreamFolderName": "NppCrossCheck",
+      "conversionStatus": "easy",
+      "conversionNote": "Compare two lists. Text analysis — Python/shell script can handle."
     },
     {
       "identifier": "nppexport",
@@ -337,7 +391,9 @@
       "repository": "https://github.com/chcg/NPP_ExportPlugin/releases/download/0.4.0/NppExport_0.4.0_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppExport"
+      "upstreamFolderName": "NppExport",
+      "conversionStatus": "builtin",
+      "conversionNote": "NotepadMac already has Export as HTML/RTF feature."
     },
     {
       "identifier": "nppftp",
@@ -349,7 +405,9 @@
       "repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.15/NppFTP-arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppFTP"
+      "upstreamFolderName": "NppFTP",
+      "conversionStatus": "medium",
+      "conversionNote": "FTP/SFTP client. Needs native Swift networking (URLSession) + file browser UI."
     },
     {
       "identifier": "nppjumplist",
@@ -361,7 +419,9 @@
       "repository": "https://github.com/chcg/JumpList/releases/download/1.2.2.10/NppJumpList_1.2.2.10_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppJumpList"
+      "upstreamFolderName": "NppJumpList",
+      "conversionStatus": "hard",
+      "conversionNote": "Windows 7 jump list — purely Windows OS feature, no macOS equivalent."
     },
     {
       "identifier": "nppdocshare",
@@ -373,7 +433,9 @@
       "repository": "https://github.com/chcg/NppDocShare/releases/download/0.2.0/NppDocShare_0.2.0_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppDocShare"
+      "upstreamFolderName": "NppDocShare",
+      "conversionStatus": "hard",
+      "conversionNote": "Real-time document sharing — requires network protocol implementation, complex."
     },
     {
       "identifier": "npptextviz",
@@ -385,7 +447,9 @@
       "repository": "https://github.com/chcg/NppTextViz/releases/download/v0.4.3/NppTextViz_v0.4.3_ARM64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppTextViz"
+      "upstreamFolderName": "NppTextViz",
+      "conversionStatus": "easy",
+      "conversionNote": "Hide/show lines for log analysis. Text filtering — simple script implementation."
     },
     {
       "identifier": "nppvim",
@@ -397,7 +461,9 @@
       "repository": "https://github.com/h-jangra/NppVim/releases/download/1.8.0.0/NppVim.arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppVim"
+      "upstreamFolderName": "NppVim",
+      "conversionStatus": "medium",
+      "conversionNote": "Vim-style editing mode. Could integrate with existing Vim emulation or implement key binding layer."
     },
     {
       "identifier": "openselection",
@@ -409,7 +475,9 @@
       "repository": "https://github.com/francostellari/NppPlugins/raw/main/OpenSelection/OpenSelection_dll_1v13_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "OpenSelection"
+      "upstreamFolderName": "OpenSelection",
+      "conversionStatus": "builtin",
+      "conversionNote": "NotepadMac already has Open Selected File/Open Containing Folder feature."
     },
     {
       "identifier": "pork2sausage",
@@ -421,7 +489,9 @@
       "repository": "https://github.com/npp-plugins/pork2sausage/releases/download/v2.6/pork2sausage.2.6.bin.arm64.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "pork2sausage"
+      "upstreamFolderName": "pork2sausage",
+      "conversionStatus": "easy",
+      "conversionNote": "Pass selected text to command-line program. Directly maps to macOS native plugin command system."
     },
     {
       "identifier": "rascript",
@@ -433,7 +503,9 @@
       "repository": "https://github.com/joshraphael/npp-rascript/releases/download/v0.4.1/npp-rascript_v0.4.1_ARM64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "RAScript"
+      "upstreamFolderName": "RAScript",
+      "conversionStatus": "hard",
+      "conversionNote": "Custom grammar definition — niche, needs full native parser implementation."
     },
     {
       "identifier": "runme",
@@ -445,7 +517,9 @@
       "repository": "https://github.com/francostellari/NppPlugins/raw/main/RunMe/RunMe_dll_1v61_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "RunMe"
+      "upstreamFolderName": "RunMe",
+      "conversionStatus": "easy",
+      "conversionNote": "Execute current file based on shell association. Maps directly to macOS Run Command system."
     },
     {
       "identifier": "rustnpp",
@@ -457,7 +531,9 @@
       "repository": "https://github.com/chcg/rustnpp/releases/download/1.0.2/rustnpp_1.0.2_aarch64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "rustnpp"
+      "upstreamFolderName": "rustnpp",
+      "conversionStatus": "easy",
+      "conversionNote": "Run/build Rust cargo projects. Can use cargo CLI as command-line wrapper."
     },
     {
       "identifier": "securepad",
@@ -469,7 +545,9 @@
       "repository": "https://github.com/DominicTobias/SecurePad/releases/download/v2.4/SecurePad_v2.4_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "SecurePad"
+      "upstreamFolderName": "SecurePad",
+      "conversionStatus": "medium",
+      "conversionNote": "Document encryption. Can use macOS Security framework or gpg command-line wrapper."
     },
     {
       "identifier": "selectnlaunch",
@@ -481,7 +559,9 @@
       "repository": "https://github.com/npp-plugins/selectnlaunch/releases/download/v2.2/selectNLaunch.v2.2.bin.arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "selectNLaunch"
+      "upstreamFolderName": "selectNLaunch",
+      "conversionStatus": "easy",
+      "conversionNote": "Save selected text as temp file and execute. Directly maps to native plugin command system."
     },
     {
       "identifier": "selecttoclipboard",
@@ -493,7 +573,9 @@
       "repository": "https://github.com/KubaDee/SelectToClipboard/releases/download/v1.0.3/SelectToClipboard_arm64_v1.0.3.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "SelectToClipboard"
+      "upstreamFolderName": "SelectToClipboard",
+      "conversionStatus": "easy",
+      "conversionNote": "Auto-copy selected text. Simple buffer monitoring script."
     },
     {
       "identifier": "sessionmgr",
@@ -505,7 +587,9 @@
       "repository": "https://github.com/chcg/npp-session-manager/releases/download/v1.4.4/SessionMgr_v1.4.4_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "SessionMgr"
+      "upstreamFolderName": "SessionMgr",
+      "conversionStatus": "builtin",
+      "conversionNote": "NotepadMac already has session management (persist/restore open files)."
     },
     {
       "identifier": "nppsnippets",
@@ -517,7 +601,9 @@
       "repository": "https://github.com/ffes/nppsnippets/releases/download/v1.7.1/NppSnippets-171-arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppSnippets"
+      "upstreamFolderName": "NppSnippets",
+      "conversionStatus": "medium",
+      "conversionNote": "Code snippet insertion. Needs native snippet panel UI + storage."
     },
     {
       "identifier": "speechplugin",
@@ -529,7 +615,9 @@
       "repository": "https://github.com/chcg/SpeechPlugin/releases/download/v0.4.0/SpeechPlugin_v0.4.0_ARM64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "SpeechPlugin"
+      "upstreamFolderName": "SpeechPlugin",
+      "conversionStatus": "hard",
+      "conversionNote": "Text-to-speech. macOS has built-in TTS (say command), but integration needs native work."
     },
     {
       "identifier": "stayawake_npp",
@@ -541,7 +629,9 @@
       "repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.1.0.0/StayAwake_NPP_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "StayAwake_NPP"
+      "upstreamFolderName": "StayAwake_NPP",
+      "conversionStatus": "hard",
+      "conversionNote": "Prevent Windows sleep. macOS has caffeinate command — simple wrapper possible but niche."
     },
     {
       "identifier": "takenotes",
@@ -553,7 +643,9 @@
       "repository": "https://github.com/francostellari/NppPlugins/raw/main/TakeNotes/TakeNotes_dll_1v27_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "TakeNotes"
+      "upstreamFolderName": "TakeNotes",
+      "conversionStatus": "medium",
+      "conversionNote": "Note-taking with timestamps. Needs native Swift UI for note panel."
     },
     {
       "identifier": "npptasklist",
@@ -565,7 +657,9 @@
       "repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.7.0/NppTaskList_v2.7.0_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "NppTaskList"
+      "upstreamFolderName": "NppTaskList",
+      "conversionStatus": "easy",
+      "conversionNote": "Scan TODO items from document. Text pattern search — shell script can extract TODO/FIXME/NOTE lines."
     },
     {
       "identifier": "tcsyslogfinder",
@@ -577,7 +671,9 @@
       "repository": "https://github.com/bsagarzazu/npp-tc-syslog-finder/releases/download/v1.0.0/TCSyslogFinder_v1.0.0_arm64.zip",
       "nppMacCompatibleVersions": "[8.0,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "TCSyslogFinder"
+      "upstreamFolderName": "TCSyslogFinder",
+      "conversionStatus": "medium",
+      "conversionNote": "Find/open Teamcenter syslog. File system navigation — needs native file browser integration."
     },
     {
       "identifier": "topmost",
@@ -589,7 +685,9 @@
       "repository": "https://github.com/francostellari/NppPlugins/raw/main/TopMost/TopMost_dll_1v42_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "TopMost"
+      "upstreamFolderName": "TopMost",
+      "conversionStatus": "builtin",
+      "conversionNote": "NotepadMac already supports window pinning (floating window) via window level API."
     },
     {
       "identifier": "treesitterlexer",
@@ -601,7 +699,9 @@
       "repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.2.0/NppTreeSitter_1.2.0_ARM64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "TreeSitterLexer"
+      "upstreamFolderName": "TreeSitterLexer",
+      "conversionStatus": "hard",
+      "conversionNote": "Tree-sitter AST-based syntax highlighting. Complex native integration with Scintilla."
     },
     {
       "identifier": "urlplugin",
@@ -613,7 +713,9 @@
       "repository": "https://github.com/SinghRajenM/nppURLPlugin/releases/download/1.2.0.0/urlPlugin_arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "urlPlugin"
+      "upstreamFolderName": "urlPlugin",
+      "conversionStatus": "easy",
+      "conversionNote": "URL encode/decode. Simple text transform — trivial shell script."
     },
     {
       "identifier": "virtualfolders",
@@ -625,7 +727,9 @@
       "repository": "https://github.com/FatihC/VirtualFolders/releases/download/v1.0.3/VirtualFolders-v1.0.3-arm64.zip",
       "nppMacCompatibleVersions": "[8.8.5,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "VirtualFolders"
+      "upstreamFolderName": "VirtualFolders",
+      "conversionStatus": "medium",
+      "conversionNote": "Virtual folder tree panel. Needs native Swift file browser UI (similar to Workspace panel)."
     },
     {
       "identifier": "vscodekeymapnpp",
@@ -637,7 +741,9 @@
       "repository": "https://github.com/14ag/vscode-to-notepadpp/releases/download/v0.2.0/VSCodeKeymapNpp-0.2.0-arm64.zip",
       "nppMacCompatibleVersions": "[8.8.6,]",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "VSCodeKeymapNpp"
+      "upstreamFolderName": "VSCodeKeymapNpp",
+      "conversionStatus": "medium",
+      "conversionNote": "VS Code keyboard shortcuts. Needs native Swift key binding translation layer."
     },
     {
       "identifier": "webedit",
@@ -649,7 +755,9 @@
       "repository": "https://github.com/Krazal/WebEdit/releases/download/v2.9.0.1/WebEdit.2.9.0.1.arm64.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": true,
-      "upstreamFolderName": "WebEdit"
+      "upstreamFolderName": "WebEdit",
+      "conversionStatus": "easy",
+      "conversionNote": "HTML tag abbreviation expansion. Text template insertion — script-based."
     }
   ]
 }
