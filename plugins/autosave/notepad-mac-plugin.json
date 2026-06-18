@@ -1,0 +1,19 @@
+{
+  "identifier": "autosave",
+  "name": "AutoSave",
+  "version": "1.0.0",
+  "description": "Auto-save files on timer or focus-loss. macOS native port — needs Swift Timer + NSDocument integration.",
+  "author": "Franco Stellari",
+  "homepage": "https://github.com/francostellari/NppPlugins",
+  "entryPoint": "autosave.sh",
+  "commands": [
+    {
+      "identifier": "save-all-now",
+      "title": "Save All Files Now"
+    },
+    {
+      "identifier": "toggle-autosave",
+      "title": "Toggle Auto-Save"
+    }
+  ]
+}

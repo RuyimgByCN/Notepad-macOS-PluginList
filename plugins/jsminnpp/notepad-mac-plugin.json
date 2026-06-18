@@ -1,0 +1,23 @@
+{
+  "identifier": "jsminnpp",
+  "name": "JSTool",
+  "version": "1.0.0",
+  "description": "JavaScript formatting, minification, and JSON viewer. macOS native port of JSTool.",
+  "author": "Sun Junwen",
+  "homepage": "https://github.com/sunjw/jstoolnpp",
+  "entryPoint": "jsminnpp.sh",
+  "commands": [
+    {
+      "identifier": "format-js",
+      "title": "Format JavaScript"
+    },
+    {
+      "identifier": "minify-js",
+      "title": "Minify JavaScript"
+    },
+    {
+      "identifier": "json-view",
+      "title": "JSON Data Viewer"
+    }
+  ]
+}

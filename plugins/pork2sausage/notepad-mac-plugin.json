@@ -1,0 +1,15 @@
+{
+  "identifier": "pork2sausage",
+  "name": "Pork to Sausage",
+  "version": "1.0.0",
+  "description": "Pass selected text to any command-line program as input, replace selection with output. macOS native port.",
+  "author": "Don HO",
+  "homepage": "https://github.com/npp-plugins/pork2sausage",
+  "entryPoint": "pork2sausage.sh",
+  "commands": [
+    {
+      "identifier": "pipe-to-command",
+      "title": "Pipe Selection to Command"
+    }
+  ]
+}

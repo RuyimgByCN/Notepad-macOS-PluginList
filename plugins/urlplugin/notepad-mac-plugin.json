@@ -1,0 +1,19 @@
+{
+  "identifier": "urlplugin",
+  "name": "URL Encode/Decode Plugin",
+  "version": "1.0.0",
+  "description": "URL encode and decode selected text. macOS native port.",
+  "author": "Rajendra Singh",
+  "homepage": "https://github.com/SinghRajenM/nppURLPlugin",
+  "entryPoint": "urlplugin.sh",
+  "commands": [
+    {
+      "identifier": "url-encode",
+      "title": "URL Encode Selection"
+    },
+    {
+      "identifier": "url-decode",
+      "title": "URL Decode Selection"
+    }
+  ]
+}

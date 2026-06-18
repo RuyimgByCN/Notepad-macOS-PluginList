@@ -1,0 +1,23 @@
+{
+  "identifier": "runme",
+  "name": "RunMe",
+  "version": "1.0.0",
+  "description": "Execute the currently open file based on shell association. macOS native port using open/exec.",
+  "author": "Franco Stellari",
+  "homepage": "https://github.com/francostellari/NppPlugins",
+  "entryPoint": "runme.sh",
+  "commands": [
+    {
+      "identifier": "run-file",
+      "title": "Run Current File"
+    },
+    {
+      "identifier": "run-in-terminal",
+      "title": "Run in Terminal"
+    },
+    {
+      "identifier": "open-containing-folder",
+      "title": "Open Containing Folder"
+    }
+  ]
+}

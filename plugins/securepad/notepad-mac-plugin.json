@@ -1,0 +1,27 @@
+{
+  "identifier": "securepad",
+  "name": "SecurePad",
+  "version": "1.0.0",
+  "description": "Encrypt/decrypt documents with AES-256. macOS native port using Security framework / gpg.",
+  "author": "Dominic Tobias",
+  "homepage": "https://github.com/DominicTobias/SecurePad",
+  "entryPoint": "securepad.sh",
+  "commands": [
+    {
+      "identifier": "encrypt-selection",
+      "title": "Encrypt Selection"
+    },
+    {
+      "identifier": "decrypt-selection",
+      "title": "Decrypt Selection"
+    },
+    {
+      "identifier": "encrypt-file",
+      "title": "Encrypt Current File"
+    },
+    {
+      "identifier": "decrypt-file",
+      "title": "Decrypt Current File"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "identifier": "compareplus",
+  "name": "ComparePlus",
+  "version": "1.0.0",
+  "description": "Advanced text comparison tool. macOS stub — dual-panel diff view needs native Swift UI.",
+  "author": "Pavel Nedev",
+  "homepage": "https://github.com/pnedev/comparePlus",
+  "entryPoint": "compareplus.sh",
+  "commands": [
+    {
+      "identifier": "compare-selected",
+      "title": "Compare Selected Text"
+    },
+    {
+      "identifier": "diff-files",
+      "title": "Diff Two Files"
+    }
+  ]
+}

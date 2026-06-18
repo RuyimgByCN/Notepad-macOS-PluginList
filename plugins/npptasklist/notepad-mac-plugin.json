@@ -1,0 +1,23 @@
+{
+  "identifier": "npptasklist",
+  "name": "Task List",
+  "version": "1.0.0",
+  "description": "Scan document for TODO, FIXME, NOTE items. macOS native port of Task List.",
+  "author": "blitowitz",
+  "homepage": "https://github.com/Megabyteceer/npp-task-list",
+  "entryPoint": "npptasklist.sh",
+  "commands": [
+    {
+      "identifier": "scan-todos",
+      "title": "Scan TODO Items"
+    },
+    {
+      "identifier": "scan-fixmes",
+      "title": "Scan FIXME Items"
+    },
+    {
+      "identifier": "scan-all-tasks",
+      "title": "Scan All Task Markers"
+    }
+  ]
+}

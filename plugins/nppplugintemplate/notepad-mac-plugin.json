@@ -1,0 +1,15 @@
+{
+  "identifier": "nppplugintemplate",
+  "name": "Notepad++ Plugin Template",
+  "version": "1.0.0",
+  "description": "NotepadMac plugin development template. Copy and modify to create new plugins.",
+  "author": "Don HO",
+  "homepage": "https://github.com/npp-plugins/plugintemplate",
+  "entryPoint": "nppplugintemplate.sh",
+  "commands": [
+    {
+      "identifier": "template-command",
+      "title": "Template Command"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "identifier": "languagehelp",
+  "name": "LanguageHelp",
+  "version": "1.0.0",
+  "description": "Language-specific help file viewer with keyword lookup. macOS stub — needs native help viewer.",
+  "author": "Franco Stellari",
+  "homepage": "https://github.com/francostellari/NppPlugins",
+  "entryPoint": "languagehelp.sh",
+  "commands": [
+    {
+      "identifier": "lookup-keyword",
+      "title": "Lookup Keyword in Help"
+    },
+    {
+      "identifier": "open-help-file",
+      "title": "Open Help File"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "identifier": "virtualfolders",
+  "name": "Virtual Folders",
+  "version": "1.0.0",
+  "description": "Virtual folder tree panel for grouping files. macOS stub — needs NSTreeController/NSOutlineView UI.",
+  "author": "Fatih Coşkun",
+  "homepage": "https://github.com/FatihC/VirtualFolders",
+  "entryPoint": "virtualfolders.sh",
+  "commands": [
+    {
+      "identifier": "open-virtual-folders",
+      "title": "Open Virtual Folders Panel"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "identifier": "takenotes",
+  "name": "TakeNotes",
+  "version": "1.0.0",
+  "description": "Quick note-taking with timestamped filenames. macOS stub — needs native note panel UI.",
+  "author": "Franco Stellari",
+  "homepage": "https://github.com/francostellari/NppPlugins",
+  "entryPoint": "takenotes.sh",
+  "commands": [
+    {
+      "identifier": "new-note",
+      "title": "Create New Note"
+    },
+    {
+      "identifier": "open-last-note",
+      "title": "Open Last Note"
+    }
+  ]
+}

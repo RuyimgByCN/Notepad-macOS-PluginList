@@ -1,0 +1,19 @@
+{
+  "identifier": "fwdataviz",
+  "name": "Fixed-width Data Visualizer",
+  "version": "1.0.0",
+  "description": "Fixed-width data visualization with column/field display. macOS stub — needs NSTableView native UI.",
+  "author": "Shridhar Kumar",
+  "homepage": "https://github.com/shriprem/FWDataViz",
+  "entryPoint": "fwdataviz.sh",
+  "commands": [
+    {
+      "identifier": "detect-fixed-width",
+      "title": "Detect Fixed-Width Layout"
+    },
+    {
+      "identifier": "extract-fields",
+      "title": "Extract Fields"
+    }
+  ]
+}

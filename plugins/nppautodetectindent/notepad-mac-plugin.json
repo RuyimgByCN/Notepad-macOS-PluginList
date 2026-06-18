@@ -1,0 +1,15 @@
+{
+  "identifier": "nppautodetectindent",
+  "name": "Auto Detect Indention",
+  "version": "1.0.0",
+  "description": "Detects indentation (tab or spaces) and auto-adjusts Tab settings. macOS native port of nppAutoDetectIndent.",
+  "author": "Mike Tzou (Chocobo1)",
+  "homepage": "https://github.com/Chocobo1/nppAutoDetectIndent",
+  "entryPoint": "nppautodetectindent.sh",
+  "commands": [
+    {
+      "identifier": "detect-indent",
+      "title": "Auto Detect Indentation"
+    }
+  ]
+}

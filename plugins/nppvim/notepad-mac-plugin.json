@@ -1,0 +1,15 @@
+{
+  "identifier": "nppvim",
+  "name": "NppVim",
+  "version": "1.0.0",
+  "description": "Vim-style editing mode and key bindings. macOS stub — needs native key-binding translation layer.",
+  "author": "h-jangra",
+  "homepage": "https://github.com/h-jangra/NppVim",
+  "entryPoint": "nppvim.sh",
+  "commands": [
+    {
+      "identifier": "toggle-vim-mode",
+      "title": "Toggle Vim Mode"
+    }
+  ]
+}

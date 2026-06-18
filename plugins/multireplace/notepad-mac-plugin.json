@@ -1,0 +1,19 @@
+{
+  "identifier": "multireplace",
+  "name": "MultiReplace",
+  "version": "1.0.0",
+  "description": "Multi-pattern search & replace across files. macOS stub — multi-rule UI needs native panel.",
+  "author": "Thomas Knoefel",
+  "homepage": "https://github.com/daddel80/notepadpp-multireplace",
+  "entryPoint": "multireplace.sh",
+  "commands": [
+    {
+      "identifier": "multi-replace",
+      "title": "Multi-Pattern Replace"
+    },
+    {
+      "identifier": "apply-replace-list",
+      "title": "Apply Replace List"
+    }
+  ]
+}

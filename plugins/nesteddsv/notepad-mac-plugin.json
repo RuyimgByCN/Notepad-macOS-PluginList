@@ -1,0 +1,19 @@
+{
+  "identifier": "nesteddsv",
+  "name": "NestedDSV Data Visualizer",
+  "version": "1.0.0",
+  "description": "Hierarchical DSV data visualization. macOS stub — needs NSOutlineView panel UI.",
+  "author": "Shridhar Kumar",
+  "homepage": "https://github.com/shriprem/NestedDSV",
+  "entryPoint": "nesteddsv.sh",
+  "commands": [
+    {
+      "identifier": "detect-dsv",
+      "title": "Detect DSV Format"
+    },
+    {
+      "identifier": "extract-dsv-fields",
+      "title": "Extract DSV Fields"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "identifier": "rascript",
+  "name": "RAScript",
+  "version": "1.0.0",
+  "description": "RAScript grammar definition and parsing. macOS stub — custom grammar parser needs native implementation.",
+  "author": "Joshua Raphael",
+  "homepage": "https://github.com/joshraphael/npp-rascript",
+  "entryPoint": "rascript.sh",
+  "commands": [
+    {
+      "identifier": "parse-rascript",
+      "title": "Parse RAScript"
+    },
+    {
+      "identifier": "validate-rascript",
+      "title": "Validate RAScript Grammar"
+    }
+  ]
+}

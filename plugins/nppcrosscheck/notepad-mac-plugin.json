@@ -1,0 +1,27 @@
+{
+  "identifier": "nppcrosscheck",
+  "name": "NppCrossCheck",
+  "version": "1.0.0",
+  "description": "Cross-check two lists in the current document. Shows intersection, difference, and union. macOS native port.",
+  "author": "Pablo Lopez",
+  "homepage": "https://github.com/pablo-code14/NppCrossCheck",
+  "entryPoint": "nppcrosscheck.sh",
+  "commands": [
+    {
+      "identifier": "cross-check",
+      "title": "Cross Check Two Lists"
+    },
+    {
+      "identifier": "find-intersection",
+      "title": "Find Intersection"
+    },
+    {
+      "identifier": "find-difference",
+      "title": "Find Difference (A - B)"
+    },
+    {
+      "identifier": "find-union",
+      "title": "Find Union"
+    }
+  ]
+}

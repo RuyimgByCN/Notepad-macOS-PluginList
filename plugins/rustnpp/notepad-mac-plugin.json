@@ -1,0 +1,23 @@
+{
+  "identifier": "rustnpp",
+  "name": "rustnpp",
+  "version": "1.0.0",
+  "description": "Run or build Rust cargo projects and .rs files. macOS native port using cargo CLI.",
+  "author": "nika-begiashvili",
+  "homepage": "https://github.com/nika-begiashvili/rustnpp",
+  "entryPoint": "rustnpp.sh",
+  "commands": [
+    {
+      "identifier": "cargo-run",
+      "title": "Cargo Run"
+    },
+    {
+      "identifier": "cargo-build",
+      "title": "Cargo Build"
+    },
+    {
+      "identifier": "cargo-test",
+      "title": "Cargo Test"
+    }
+  ]
+}

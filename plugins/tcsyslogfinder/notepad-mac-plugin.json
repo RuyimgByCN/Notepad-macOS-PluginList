@@ -1,0 +1,19 @@
+{
+  "identifier": "tcsyslogfinder",
+  "name": "TC Syslog Finder",
+  "version": "1.0.0",
+  "description": "Find and open Teamcenter syslog files. macOS stub — needs native file browser integration.",
+  "author": "bsagarzazu",
+  "homepage": "https://github.com/bsagarzazu/npp-tc-syslog-finder",
+  "entryPoint": "tcsyslogfinder.sh",
+  "commands": [
+    {
+      "identifier": "find-syslog",
+      "title": "Find Latest Syslog"
+    },
+    {
+      "identifier": "open-syslog-folder",
+      "title": "Open Syslog Folder"
+    }
+  ]
+}

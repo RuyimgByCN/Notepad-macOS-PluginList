@@ -1,0 +1,19 @@
+{
+  "identifier": "hexeditor",
+  "name": "HEX-Editor",
+  "version": "1.0.0",
+  "description": "Hex editor for binary files. macOS stub — needs native hex view panel.",
+  "author": "Jens Lorenz",
+  "homepage": "https://github.com/chcg/NPP_HexEditor",
+  "entryPoint": "hexeditor.sh",
+  "commands": [
+    {
+      "identifier": "hex-dump",
+      "title": "Hex Dump Current File"
+    },
+    {
+      "identifier": "hex-view-selection",
+      "title": "Hex View Selection"
+    }
+  ]
+}

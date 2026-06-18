@@ -1,0 +1,19 @@
+{
+  "identifier": "nppconverter",
+  "name": "Npp Converter",
+  "version": "1.0.0",
+  "description": "ASCII to Hex and Hex to ASCII converter. macOS native port of Npp Converter.",
+  "author": "Don HO",
+  "homepage": "https://github.com/npp-plugins/converter/",
+  "entryPoint": "nppconverter.sh",
+  "commands": [
+    {
+      "identifier": "ascii-to-hex",
+      "title": "ASCII → Hex"
+    },
+    {
+      "identifier": "hex-to-ascii",
+      "title": "Hex → ASCII"
+    }
+  ]
+}

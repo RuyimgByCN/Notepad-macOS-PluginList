@@ -1,0 +1,23 @@
+{
+  "identifier": "speechplugin",
+  "name": "SpeechPlugin",
+  "version": "1.0.0",
+  "description": "Text-to-speech using macOS built-in say command. macOS native port of SpeechPlugin.",
+  "author": "Jim Xochellis",
+  "homepage": "https://github.com/chcg/SpeechPlugin",
+  "entryPoint": "speechplugin.sh",
+  "commands": [
+    {
+      "identifier": "speak-selection",
+      "title": "Speak Selection"
+    },
+    {
+      "identifier": "speak-document",
+      "title": "Speak Entire Document"
+    },
+    {
+      "identifier": "stop-speaking",
+      "title": "Stop Speaking"
+    }
+  ]
+}

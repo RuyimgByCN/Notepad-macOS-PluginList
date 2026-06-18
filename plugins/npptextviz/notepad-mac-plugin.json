@@ -1,0 +1,23 @@
+{
+  "identifier": "npptextviz",
+  "name": "NppTextViz",
+  "version": "1.0.0",
+  "description": "Hide/show lines by pattern for log analysis. macOS native port of NppTextViz.",
+  "author": "Jakub Dvorak",
+  "homepage": "https://github.com/KubaDee/NppTextViz",
+  "entryPoint": "npptextviz.sh",
+  "commands": [
+    {
+      "identifier": "hide-matching-lines",
+      "title": "Hide Lines Matching Pattern"
+    },
+    {
+      "identifier": "show-all-lines",
+      "title": "Show All Lines"
+    },
+    {
+      "identifier": "hide-non-matching",
+      "title": "Hide Lines NOT Matching Pattern"
+    }
+  ]
+}

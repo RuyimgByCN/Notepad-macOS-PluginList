@@ -1,0 +1,27 @@
+{
+  "identifier": "nppchineseconverter",
+  "name": "Chinese Converter",
+  "version": "1.0.0",
+  "description": "Traditional and Simplified Chinese conversion. macOS native port using OpenCC.",
+  "author": "lkk9898969",
+  "homepage": "https://github.com/lkk9898969/Npp_ChineseConverter",
+  "entryPoint": "nppchineseconverter.sh",
+  "commands": [
+    {
+      "identifier": "t2s",
+      "title": "Traditional → Simplified"
+    },
+    {
+      "identifier": "s2t",
+      "title": "Simplified → Traditional"
+    },
+    {
+      "identifier": "t2tw",
+      "title": "Traditional → Taiwan"
+    },
+    {
+      "identifier": "tw2t",
+      "title": "Taiwan → Traditional"
+    }
+  ]
+}

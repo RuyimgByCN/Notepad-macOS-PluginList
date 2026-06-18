@@ -1,0 +1,15 @@
+{
+  "identifier": "selecttoclipboard",
+  "name": "Select to Clipboard",
+  "version": "1.0.0",
+  "description": "Auto-copy selected text to clipboard (like PuTTY). macOS native port using pbcopy.",
+  "author": "Jakub Dvorak",
+  "homepage": "https://github.com/KubaDee/SelectToClipboard",
+  "entryPoint": "selecttoclipboard.sh",
+  "commands": [
+    {
+      "identifier": "copy-selection",
+      "title": "Copy Selection to Clipboard"
+    }
+  ]
+}

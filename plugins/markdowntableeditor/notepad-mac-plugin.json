@@ -1,0 +1,23 @@
+{
+  "identifier": "markdowntableeditor",
+  "name": "Markdown Table Editor",
+  "version": "1.0.0",
+  "description": "Markdown table alignment and editing. macOS stub — interactive table editing needs NSTableView UI.",
+  "author": "Kreout",
+  "homepage": "https://github.com/krotname/NppMarkdownTableEditor",
+  "entryPoint": "markdowntableeditor.sh",
+  "commands": [
+    {
+      "identifier": "align-table",
+      "title": "Align Markdown Table"
+    },
+    {
+      "identifier": "format-table",
+      "title": "Format Markdown Table"
+    },
+    {
+      "identifier": "csv-to-table",
+      "title": "Convert CSV to Table"
+    }
+  ]
+}

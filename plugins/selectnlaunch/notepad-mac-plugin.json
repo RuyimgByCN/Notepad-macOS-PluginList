@@ -1,0 +1,19 @@
+{
+  "identifier": "selectnlaunch",
+  "name": "Select N' Launch",
+  "version": "1.0.0",
+  "description": "Save selected text as temp file and open with system. macOS native port.",
+  "author": "Don HO",
+  "homepage": "https://github.com/npp-plugins/selectnlaunch",
+  "entryPoint": "selectnlaunch.sh",
+  "commands": [
+    {
+      "identifier": "select-and-launch",
+      "title": "Select N Launch"
+    },
+    {
+      "identifier": "select-and-open",
+      "title": "Open Selection as File"
+    }
+  ]
+}

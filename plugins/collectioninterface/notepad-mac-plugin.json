@@ -1,0 +1,19 @@
+{
+  "identifier": "collectioninterface",
+  "name": "CollectionInterface",
+  "version": "1.0.0",
+  "description": "Download and install UDL/Theme collections from GitHub. macOS stub — needs URLSession + native install UI.",
+  "author": "pryrt",
+  "homepage": "https://github.com/pryrt/NppPlugin-CollectionInterface",
+  "entryPoint": "collectioninterface.sh",
+  "commands": [
+    {
+      "identifier": "download-udl-list",
+      "title": "Download UDL List"
+    },
+    {
+      "identifier": "download-theme-list",
+      "title": "Download Theme List"
+    }
+  ]
+}

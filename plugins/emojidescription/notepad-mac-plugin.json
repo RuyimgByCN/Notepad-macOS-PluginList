@@ -1,0 +1,15 @@
+{
+  "identifier": "emojidescription",
+  "name": "Emoji Description",
+  "version": "1.0.0",
+  "description": "Displays character encoding info: Unicode code point, decimal/hex values, HTML entity, UTF-8 bytes. macOS native port.",
+  "author": "Ruberoid",
+  "homepage": "https://github.com/Ruberoid/npp_emoji_description",
+  "entryPoint": "emojidescription.sh",
+  "commands": [
+    {
+      "identifier": "char-info",
+      "title": "Show Character Info"
+    }
+  ]
+}

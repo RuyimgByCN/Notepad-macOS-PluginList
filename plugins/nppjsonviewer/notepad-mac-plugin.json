@@ -1,0 +1,23 @@
+{
+  "identifier": "nppjsonviewer",
+  "name": "JSON Viewer",
+  "version": "1.0.0",
+  "description": "JSON formatter and minifier. macOS native port using python json.tool.",
+  "author": "Kapil Ratnani, Rajendra Singh",
+  "homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
+  "entryPoint": "nppjsonviewer.sh",
+  "commands": [
+    {
+      "identifier": "format-json",
+      "title": "Format JSON"
+    },
+    {
+      "identifier": "minify-json",
+      "title": "Minify JSON"
+    },
+    {
+      "identifier": "validate-json",
+      "title": "Validate JSON"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "identifier": "mimetools",
+  "name": "Mime tools",
+  "version": "1.0.0",
+  "description": "MIME encoding/decoding: Base64, Quoted-printable, URL encode/decode. macOS native port.",
+  "author": "Don HO",
+  "homepage": "https://github.com/npp-plugins/mimetools",
+  "entryPoint": "mimetools.sh",
+  "commands": [
+    {
+      "identifier": "base64-encode",
+      "title": "Base64 Encode"
+    },
+    {
+      "identifier": "base64-decode",
+      "title": "Base64 Decode"
+    },
+    {
+      "identifier": "qp-encode",
+      "title": "Quoted-Printable Encode"
+    },
+    {
+      "identifier": "qp-decode",
+      "title": "Quoted-Printable Decode"
+    },
+    {
+      "identifier": "url-encode",
+      "title": "URL Encode"
+    },
+    {
+      "identifier": "url-decode",
+      "title": "URL Decode"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "identifier": "htmltag",
+  "name": "HTML Tag",
+  "version": "1.0.0",
+  "description": "HTML/XML tag navigation, entity encoding/decoding, JS character encoding/decoding. macOS native port.",
+  "author": "Martijn Coppoolse",
+  "homepage": "https://github.com/rdipardo/nppHTMLTag",
+  "entryPoint": "htmltag.sh",
+  "commands": [
+    {
+      "identifier": "encode-html-entities",
+      "title": "Encode HTML Entities"
+    },
+    {
+      "identifier": "decode-html-entities",
+      "title": "Decode HTML Entities"
+    },
+    {
+      "identifier": "encode-js-chars",
+      "title": "Encode JS Characters"
+    },
+    {
+      "identifier": "decode-js-chars",
+      "title": "Decode JS Characters"
+    }
+  ]
+}

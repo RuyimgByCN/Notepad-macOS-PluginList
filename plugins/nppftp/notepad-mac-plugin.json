@@ -1,0 +1,19 @@
+{
+  "identifier": "nppftp",
+  "name": "NppFTP",
+  "version": "1.0.0",
+  "description": "FTP/SFTP file browser and transfer. macOS stub — native file browser UI needed.",
+  "author": "ashish_kulz",
+  "homepage": "https://ashkulz.github.io/NppFTP/",
+  "entryPoint": "nppftp.sh",
+  "commands": [
+    {
+      "identifier": "sftp-download",
+      "title": "SFTP Download File"
+    },
+    {
+      "identifier": "sftp-upload",
+      "title": "SFTP Upload File"
+    }
+  ]
+}

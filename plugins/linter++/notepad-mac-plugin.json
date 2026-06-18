@@ -1,0 +1,19 @@
+{
+  "identifier": "linter++",
+  "name": "Linter++",
+  "version": "1.0.0",
+  "description": "Real-time code linting against external linters (eslint, pylint, shellcheck, etc.). macOS native port.",
+  "author": "Tom Tanner",
+  "homepage": "https://github.com/thosrtanner/notepad-pp-linter",
+  "entryPoint": "linter++.sh",
+  "commands": [
+    {
+      "identifier": "lint-file",
+      "title": "Lint Current File"
+    },
+    {
+      "identifier": "lint-selection",
+      "title": "Lint Selection"
+    }
+  ]
+}

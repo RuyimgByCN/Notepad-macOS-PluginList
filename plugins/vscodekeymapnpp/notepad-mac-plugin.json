@@ -1,0 +1,19 @@
+{
+  "identifier": "vscodekeymapnpp",
+  "name": "VSCode Keymap NPP",
+  "version": "1.0.0",
+  "description": "VS Code keyboard shortcut mapping. macOS stub — needs native key binding translation layer.",
+  "author": "philip",
+  "homepage": "https://github.com/14ag/vscode-to-notepadpp",
+  "entryPoint": "vscodekeymapnpp.sh",
+  "commands": [
+    {
+      "identifier": "enable-vscode-keymap",
+      "title": "Enable VS Code Keymap"
+    },
+    {
+      "identifier": "disable-vscode-keymap",
+      "title": "Disable VS Code Keymap"
+    }
+  ]
+}

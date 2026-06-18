@@ -1,0 +1,19 @@
+{
+  "identifier": "stayawake_npp",
+  "name": "StayAwake",
+  "version": "1.0.0",
+  "description": "Prevent macOS sleep using caffeinate. macOS native port of StayAwake.",
+  "author": "Shridhar Kumar",
+  "homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin",
+  "entryPoint": "stayawake_npp.sh",
+  "commands": [
+    {
+      "identifier": "enable-caffeinate",
+      "title": "Prevent Sleep (Caffeinate)"
+    },
+    {
+      "identifier": "disable-caffeinate",
+      "title": "Allow Sleep (Disable Caffeinate)"
+    }
+  ]
+}

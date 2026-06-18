@@ -1,0 +1,23 @@
+{
+  "identifier": "nppplugindemo",
+  "name": "Notepad++ Plugin Demo",
+  "version": "1.0.0",
+  "description": "NotepadMac plugin demo — demonstrates the macOS plugin API and manifest format.",
+  "author": "Don HO",
+  "homepage": "https://github.com/npp-plugins/plugindemo",
+  "entryPoint": "nppplugindemo.sh",
+  "commands": [
+    {
+      "identifier": "hello-world",
+      "title": "Hello World"
+    },
+    {
+      "identifier": "show-info",
+      "title": "Show Plugin Info"
+    },
+    {
+      "identifier": "count-words",
+      "title": "Count Words"
+    }
+  ]
+}

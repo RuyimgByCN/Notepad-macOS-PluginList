@@ -1,0 +1,23 @@
+{
+  "identifier": "webedit",
+  "name": "WebEdit",
+  "version": "1.0.0",
+  "description": "HTML tag abbreviation expansion and selection wrapping. macOS native port of WebEdit.",
+  "author": "Alexander Iljin",
+  "homepage": "https://github.com/Krazal/WebEdit",
+  "entryPoint": "webedit.sh",
+  "commands": [
+    {
+      "identifier": "expand-tag",
+      "title": "Expand Tag Abbreviation"
+    },
+    {
+      "identifier": "wrap-selection",
+      "title": "Wrap Selection with Tag"
+    },
+    {
+      "identifier": "remove-tag",
+      "title": "Remove Surrounding Tag"
+    }
+  ]
+}

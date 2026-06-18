@@ -1,0 +1,23 @@
+{
+  "identifier": "nppbplistplugin",
+  "name": "Notepad++ bplist plugin",
+  "version": "1.0.0",
+  "description": "Binary plist viewer/editor. macOS native port using plutil — full editing needs native UI.",
+  "author": "Sergiy Azarovsky",
+  "homepage": "https://github.com/azerg/NppBplistPlugin",
+  "entryPoint": "nppbplistplugin.sh",
+  "commands": [
+    {
+      "identifier": "convert-bplist-to-xml",
+      "title": "Convert bplist to XML plist"
+    },
+    {
+      "identifier": "convert-bplist-to-json",
+      "title": "Convert bplist to JSON"
+    },
+    {
+      "identifier": "view-bplist-info",
+      "title": "View bplist Info"
+    }
+  ]
+}
