@@ -2324,7 +2324,7 @@ def generate_all():
             entry['version'] = impl['mac_version']
             entry['description'] = impl['mac_description']
             # Repository URL placeholder for macOS-native zip
-            entry['repository'] = f'https://github.com/notepad-macOS/PluginList/releases/download/plugins/{ident}-{impl["mac_version"]}.zip'
+            entry['repository'] = f'https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/{ident}-{impl["mac_version"]}.zip'
 
         # For builtin plugins, annotate description
         if ident in BUILTIN_PLUGINS:
