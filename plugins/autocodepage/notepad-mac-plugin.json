@@ -1,0 +1,19 @@
+{
+  "identifier": "autocodepage",
+  "name": "AutoCodepage",
+  "version": "1.0.0",
+  "description": "Automatically sets a document's code page. macOS native port (CLI wrapper).",
+  "author": "Andreas Heim",
+  "homepage": "https://sourceforge.net/projects/autocodepage",
+  "entryPoint": "autocodepage.sh",
+  "commands": [
+    {
+      "identifier": "detect-encoding",
+      "title": "Detect Encoding"
+    },
+    {
+      "identifier": "byte-stats",
+      "title": "Byte Statistics"
+    }
+  ]
+}

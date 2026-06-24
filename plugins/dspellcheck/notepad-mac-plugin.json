@@ -1,0 +1,19 @@
+{
+  "identifier": "dspellcheck",
+  "name": "DSpellCheck",
+  "version": "1.0.0",
+  "description": "Spell-checking with underlining of spelling mistakes. macOS native port (CLI wrapper).",
+  "author": "Sergey Semushin",
+  "homepage": "https://github.com/Predelnik/DSpellCheck",
+  "entryPoint": "dspellcheck.sh",
+  "commands": [
+    {
+      "identifier": "list-misspellings",
+      "title": "List Misspelled Words"
+    },
+    {
+      "identifier": "count-errors",
+      "title": "Count Misspelled Words"
+    }
+  ]
+}

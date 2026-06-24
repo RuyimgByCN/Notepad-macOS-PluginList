@@ -1,0 +1,19 @@
+{
+  "identifier": "previewhtml",
+  "name": "Preview HTML",
+  "version": "1.0.0",
+  "description": "Preview HTML files inside an embedded browser. macOS stub — needs native HTML preview (WKWebView).",
+  "author": "Martijn Coppoolse",
+  "homepage": "https://github.com/rdipardo/npp_preview",
+  "entryPoint": "previewhtml.sh",
+  "commands": [
+    {
+      "identifier": "validate-html",
+      "title": "Validate HTML Tags"
+    },
+    {
+      "identifier": "preview",
+      "title": "Preview HTML"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "identifier": "bracketscheck",
+  "name": "BracketsCheck",
+  "version": "1.0.0",
+  "description": "Check if brackets in your file are balanced. macOS native port (CLI wrapper).",
+  "author": "niccord",
+  "homepage": "https://github.com/niccord/BracketsCheck/",
+  "entryPoint": "bracketscheck.sh",
+  "commands": [
+    {
+      "identifier": "check-balance",
+      "title": "Check Bracket Balance"
+    }
+  ]
+}

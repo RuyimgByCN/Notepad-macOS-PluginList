@@ -1,0 +1,19 @@
+{
+  "identifier": "fileswitcher",
+  "name": "File Switcher",
+  "version": "1.0.0",
+  "description": "Switch the active buffer using just the keyboard. macOS stub — needs native keyboard buffer switcher panel.",
+  "author": "Dave Brotherstone",
+  "homepage": "https://github.com/bruderstein/FileSwitcher",
+  "entryPoint": "fileswitcher.sh",
+  "commands": [
+    {
+      "identifier": "list-buffers",
+      "title": "List Open Buffers"
+    },
+    {
+      "identifier": "switch-buffer",
+      "title": "Switch Buffer by Name"
+    }
+  ]
+}

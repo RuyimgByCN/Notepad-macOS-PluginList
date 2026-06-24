@@ -1,0 +1,19 @@
+{
+  "identifier": "tidy2",
+  "name": "Tidy2",
+  "version": "1.0.0",
+  "description": "HTML Tidy with support for HTML5. macOS native port (CLI wrapper).",
+  "author": "Dave Brotherstone",
+  "homepage": "https://code.google.com/p/npp-tidy2/",
+  "entryPoint": "tidy2.sh",
+  "commands": [
+    {
+      "identifier": "tidy-html",
+      "title": "Tidy HTML"
+    },
+    {
+      "identifier": "tidy-xml",
+      "title": "Tidy XML"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "identifier": "nppmenusearch",
+  "name": "NppMenuSearch",
+  "version": "1.0.0",
+  "description": "Search menu items and preference dialog from the toolbar. macOS stub — needs native toolbar menu-search field.",
+  "author": "Peter Frentrup",
+  "homepage": "https://github.com/peterfrentrup/NppMenuSearch",
+  "entryPoint": "nppmenusearch.sh",
+  "commands": [
+    {
+      "identifier": "search-menus",
+      "title": "Search Menu Items"
+    }
+  ]
+}

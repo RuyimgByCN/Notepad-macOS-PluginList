@@ -1,0 +1,19 @@
+{
+  "identifier": "markdownviewerplusplus",
+  "name": "MarkdownViewer++",
+  "version": "1.0.0",
+  "description": "View Markdown/CommonMark rendered on-the-fly. macOS stub — needs native live Markdown render (WKWebView).",
+  "author": "nea",
+  "homepage": "https://nea.github.io/MarkdownViewerPlusPlus/",
+  "entryPoint": "markdownviewerplusplus.sh",
+  "commands": [
+    {
+      "identifier": "extract-markdown",
+      "title": "Extract Markdown Content"
+    },
+    {
+      "identifier": "render-preview",
+      "title": "Render Markdown Preview"
+    }
+  ]
+}

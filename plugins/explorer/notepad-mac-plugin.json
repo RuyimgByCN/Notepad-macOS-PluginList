@@ -1,0 +1,23 @@
+{
+  "identifier": "explorer",
+  "name": "Explorer",
+  "version": "1.0.0",
+  "description": "File browser. macOS stub — needs native file browser side panel (NSOutlineView).",
+  "author": "Jens Lorenz",
+  "homepage": "https://github.com/oviradoi/npp-explorer-plugin",
+  "entryPoint": "explorer.sh",
+  "commands": [
+    {
+      "identifier": "list-directory",
+      "title": "List Current Directory"
+    },
+    {
+      "identifier": "current-path",
+      "title": "Show Current Path"
+    },
+    {
+      "identifier": "browse-tree",
+      "title": "Browse Folder Tree"
+    }
+  ]
+}

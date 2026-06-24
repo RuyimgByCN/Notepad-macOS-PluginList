@@ -1,0 +1,19 @@
+{
+  "identifier": "nppmarkdownpanel",
+  "name": "Markdown Panel",
+  "version": "1.0.0",
+  "description": "Lightweight plugin to display rendered Markdown files. macOS stub — needs native Markdown panel (WKWebView).",
+  "author": "Mohzy83",
+  "homepage": "https://github.com/mohzy83/NppMarkdownPanel",
+  "entryPoint": "nppmarkdownpanel.sh",
+  "commands": [
+    {
+      "identifier": "extract-markdown",
+      "title": "Extract Markdown Content"
+    },
+    {
+      "identifier": "render-panel",
+      "title": "Render Markdown Panel"
+    }
+  ]
+}

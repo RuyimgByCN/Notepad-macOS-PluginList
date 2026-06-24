@@ -1,0 +1,15 @@
+{
+  "identifier": "indentbyfold",
+  "name": "Indent By Fold",
+  "version": "1.0.0",
+  "description": "Indent using Fold points. macOS stub — needs native fold-point based indent (editor API).",
+  "author": "Ben Bluemel, Frank Fesevur",
+  "homepage": "https://github.com/ffes/indentbyfold/",
+  "entryPoint": "indentbyfold.sh",
+  "commands": [
+    {
+      "identifier": "reindent",
+      "title": "Reindent by Fold"
+    }
+  ]
+}

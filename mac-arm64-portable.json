@@ -3,6 +3,32 @@
   "source": "subset of mac-arm64.json — macOS-compatible plugins only",
   "plugins": [
     {
+      "identifier": "analyseplugin",
+      "name": "AnalysePlugin",
+      "version": "1.0.0",
+      "description": "Search for more than one search pattern at a time. macOS native port (CLI wrapper).",
+      "author": "Mattes H.",
+      "homepage": "https://sourceforge.net/projects/analyseplugin",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/analyseplugin-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "AnalysePlugin",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "autocodepage",
+      "name": "AutoCodepage",
+      "version": "1.0.0",
+      "description": "Automatically sets a document's code page. macOS native port (CLI wrapper).",
+      "author": "Andreas Heim",
+      "homepage": "https://sourceforge.net/projects/autocodepage",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/autocodepage-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "AutoCodepage",
+      "upstreamOrigin": "x64"
+    },
+    {
       "identifier": "autosave",
       "name": "AutoSave",
       "version": "1.0.0",
@@ -12,7 +38,34 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/autosave-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "AutoSave"
+      "upstreamFolderName": "AutoSave",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "bracketscheck",
+      "name": "BracketsCheck",
+      "version": "1.0.0",
+      "description": "Check if brackets in your file are balanced. macOS native port (CLI wrapper).",
+      "author": "niccord",
+      "homepage": "https://github.com/niccord/BracketsCheck/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/bracketscheck-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "BracketsCheck",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "codealignment",
+      "name": "Code Alignment",
+      "version": "1.0.0",
+      "description": "Code alignment helps you present your code beautifully. macOS native port (CLI wrapper).",
+      "author": "Chris McGrath",
+      "homepage": "https://github.com/cpmcgrath/codealignment",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/codealignment-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "CodeAlignmentNpp",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "collectioninterface",
@@ -24,7 +77,34 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/collectioninterface-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.5,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "CollectionInterface"
+      "upstreamFolderName": "CollectionInterface",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "colorpicker",
+      "name": "Don Rowlett Color Picker",
+      "version": "1.0.0",
+      "description": "Select and convert color codes in various formats. macOS native port (CLI wrapper).",
+      "author": "Don Rowlett",
+      "homepage": "https://sourceforge.net/projects/npp-plugins/files/ColorPicker/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/colorpicker-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "ColorPicker",
+      "upstreamOrigin": "x86"
+    },
+    {
+      "identifier": "columnsplusplus",
+      "name": "Columns++",
+      "version": "1.0.0",
+      "description": "Features for working with text and data arranged in columns. macOS native port (CLI wrapper).",
+      "author": "Randall Joseph Fellmy",
+      "homepage": "https://github.com/Coises/ColumnsPlusPlus",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/columnsplusplus-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "ColumnsPlusPlus",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "compareplus",
@@ -36,7 +116,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/compareplus-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "ComparePlus"
+      "upstreamFolderName": "ComparePlus",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "csvlint",
+      "name": "CSV Lint",
+      "version": "1.0.0",
+      "description": "Syntax highlighting and quality control for csv and fixed width data. macOS native port (CLI wrapper).",
+      "author": "Bas de Reuver",
+      "homepage": "https://github.com/BdR76/CSVLint/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/csvlint-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "CSVLint",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "dark_mode_c",
@@ -48,7 +142,34 @@
       "repository": "",
       "nppMacCompatibleVersions": "[8.0,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "dark_mode_C"
+      "upstreamFolderName": "dark_mode_C",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "doxyit",
+      "name": "DoxyIt",
+      "version": "1.0.0",
+      "description": "Supports creating Doxygen comments. macOS stub — needs native interactive Doxygen comment editor integration.",
+      "author": "Justin Dailey",
+      "homepage": "https://github.com/dail8859/DoxyIt",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/doxyit-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "DoxyIt",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "dspellcheck",
+      "name": "DSpellCheck",
+      "version": "1.0.0",
+      "description": "Spell-checking with underlining of spelling mistakes. macOS native port (CLI wrapper).",
+      "author": "Sergey Semushin",
+      "homepage": "https://github.com/Predelnik/DSpellCheck",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/dspellcheck-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "DSpellCheck",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "emojidescription",
@@ -60,7 +181,34 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/emojidescription-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "EmojiDescription"
+      "upstreamFolderName": "EmojiDescription",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "explorer",
+      "name": "Explorer",
+      "version": "1.0.0",
+      "description": "File browser. macOS stub — needs native file browser side panel (NSOutlineView).",
+      "author": "Jens Lorenz",
+      "homepage": "https://github.com/oviradoi/npp-explorer-plugin",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/explorer-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "Explorer",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "fileswitcher",
+      "name": "File Switcher",
+      "version": "1.0.0",
+      "description": "Switch the active buffer using just the keyboard. macOS stub — needs native keyboard buffer switcher panel.",
+      "author": "Dave Brotherstone",
+      "homepage": "https://github.com/bruderstein/FileSwitcher",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/fileswitcher-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "FileSwitcher",
+      "upstreamOrigin": "x86"
     },
     {
       "identifier": "fwdataviz",
@@ -72,7 +220,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/fwdataviz-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "FWDataViz"
+      "upstreamFolderName": "FWDataViz",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "gitscm",
+      "name": "GitSCM",
+      "version": "1.0.0",
+      "description": "GUI for already installed Git SCM. macOS stub — needs native full Git GUI panel.",
+      "author": "Michael J. Vincent",
+      "homepage": "https://github.com/vinsworldcom/nppGitSCM",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/gitscm-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "GitSCM",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "gotolinecol",
@@ -84,7 +246,8 @@
       "repository": "",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "GotoLineCol"
+      "upstreamFolderName": "GotoLineCol",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "hexeditor",
@@ -96,7 +259,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/hexeditor-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "HexEditor"
+      "upstreamFolderName": "HexEditor",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "htmltag",
@@ -108,7 +272,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/htmltag-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.3,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "HTMLTag"
+      "upstreamFolderName": "HTMLTag",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "indentbyfold",
+      "name": "Indent By Fold",
+      "version": "1.0.0",
+      "description": "Indent using Fold points. macOS stub — needs native fold-point based indent (editor API).",
+      "author": "Ben Bluemel, Frank Fesevur",
+      "homepage": "https://github.com/ffes/indentbyfold/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/indentbyfold-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "IndentByFold",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "jsminnpp",
@@ -120,7 +298,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/jsminnpp-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "JSMinNPP"
+      "upstreamFolderName": "JSMinNPP",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "jsontools",
+      "name": "JSON Tools",
+      "version": "1.0.0",
+      "description": "Query/editing tool for JSON including linting, reformatting. macOS native port (CLI wrapper).",
+      "author": "Mark Johnston Olson",
+      "homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/jsontools-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "JsonTools",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "language_selector",
@@ -132,7 +324,8 @@
       "repository": "",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "Language_Selector"
+      "upstreamFolderName": "Language_Selector",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "languagehelp",
@@ -144,7 +337,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/languagehelp-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "LanguageHelp"
+      "upstreamFolderName": "LanguageHelp",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "linter++",
@@ -156,7 +350,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/linter++-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.7.5,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "Linter++"
+      "upstreamFolderName": "Linter++",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "markdowntableeditor",
@@ -168,7 +363,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/markdowntableeditor-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.3.1,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "MarkdownTableEditor"
+      "upstreamFolderName": "MarkdownTableEditor",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "markdownviewerplusplus",
+      "name": "MarkdownViewer++",
+      "version": "1.0.0",
+      "description": "View Markdown/CommonMark rendered on-the-fly. macOS stub — needs native live Markdown render (WKWebView).",
+      "author": "nea",
+      "homepage": "https://nea.github.io/MarkdownViewerPlusPlus/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/markdownviewerplusplus-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "MarkdownViewerPlusPlus",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "mimetools",
@@ -180,7 +389,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/mimetools-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "mimeTools"
+      "upstreamFolderName": "mimeTools",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "multiclipboard",
+      "name": "MultiClipboard",
+      "version": "1.0.0",
+      "description": "Multiple text buffers via copying/cutting. macOS stub — needs native clipboard history panel.",
+      "author": "LoonyChewy",
+      "homepage": "https://sourceforge.net/projects/npp-plugins/files/MultiClipboard/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/multiclipboard-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "MultiClipboard",
+      "upstreamOrigin": "x86"
     },
     {
       "identifier": "multireplace",
@@ -192,7 +415,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/multireplace-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.5.4,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "MultiReplace"
+      "upstreamFolderName": "MultiReplace",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "nesteddsv",
@@ -204,7 +428,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nesteddsv-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NestedDSV"
+      "upstreamFolderName": "NestedDSV",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "nppautodetectindent",
@@ -216,7 +441,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppautodetectindent-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "nppAutoDetectIndent"
+      "upstreamFolderName": "nppAutoDetectIndent",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "nppbplistplugin",
@@ -228,7 +454,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppbplistplugin-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppBplistPlugin"
+      "upstreamFolderName": "NppBplistPlugin",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "nppchineseconverter",
@@ -240,7 +467,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppchineseconverter-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.4.3,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppChineseConverter"
+      "upstreamFolderName": "NppChineseConverter",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "nppconverter",
@@ -252,7 +480,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppconverter-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "nppConverter"
+      "upstreamFolderName": "nppConverter",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "nppcrosscheck",
@@ -264,7 +493,34 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppcrosscheck-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.4,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppCrossCheck"
+      "upstreamFolderName": "NppCrossCheck",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "nppeditorconfig",
+      "name": "EditorConfig",
+      "version": "1.0.0",
+      "description": "EditorConfig defines coding conventions for a project. macOS native port (CLI wrapper).",
+      "author": "EditorConfig Team",
+      "homepage": "https://github.com/editorconfig/editorconfig-notepad-plus-plus",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppeditorconfig-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "NppEditorConfig",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "nppexec",
+      "name": "NppExec",
+      "version": "1.0.0",
+      "description": "Execute commands or saved scripts without leaving Notepad++. macOS native port (CLI wrapper).",
+      "author": "Vitaliy Dovgan",
+      "homepage": "https://github.com/d0vgan/nppexec",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppexec-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "NppExec",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "nppexport",
@@ -276,7 +532,21 @@
       "repository": "",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppExport"
+      "upstreamFolderName": "NppExport",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "nppfavorites",
+      "name": "NppFavorites",
+      "version": "1.0.0",
+      "description": "Favorites plugin. macOS stub — needs native favorites panel.",
+      "author": "Helder Sepulveda",
+      "homepage": "https://github.com/heldersepu/nppfavorites",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppfavorites-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "NppFavorites",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "nppftp",
@@ -288,7 +558,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppftp-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppFTP"
+      "upstreamFolderName": "NppFTP",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "npphasher",
+      "name": "NppHash",
+      "version": "1.0.0",
+      "description": "Computes the hash of selected text. macOS native port (CLI wrapper).",
+      "author": "Don HO",
+      "homepage": "https://github.com/npp-plugins/hasher",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/npphasher-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "NppHasher",
+      "upstreamOrigin": "x86"
     },
     {
       "identifier": "nppjsonviewer",
@@ -300,7 +584,34 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppjsonviewer-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.4.5,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NPPJSONViewer"
+      "upstreamFolderName": "NPPJSONViewer",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "nppmarkdownpanel",
+      "name": "Markdown Panel",
+      "version": "1.0.0",
+      "description": "Lightweight plugin to display rendered Markdown files. macOS stub — needs native Markdown panel (WKWebView).",
+      "author": "Mohzy83",
+      "homepage": "https://github.com/mohzy83/NppMarkdownPanel",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppmarkdownpanel-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "NppMarkdownPanel",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "nppmenusearch",
+      "name": "NppMenuSearch",
+      "version": "1.0.0",
+      "description": "Search menu items and preference dialog from the toolbar. macOS stub — needs native toolbar menu-search field.",
+      "author": "Peter Frentrup",
+      "homepage": "https://github.com/peterfrentrup/NppMenuSearch",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppmenusearch-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "NppMenuSearch",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "nppplugindemo",
@@ -312,7 +623,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppplugindemo-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppPluginDemo"
+      "upstreamFolderName": "NppPluginDemo",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "nppplugintemplate",
@@ -324,7 +636,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppplugintemplate-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppPluginTemplate"
+      "upstreamFolderName": "NppPluginTemplate",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "nppregextractor",
+      "name": "NppRegExTractor",
+      "version": "1.0.0",
+      "description": "Search regular expressions and extract matches. macOS native port (CLI wrapper).",
+      "author": "Jan Graefe",
+      "homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppregextractor-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "NppRegExTractorPlugin",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "nppsnippets",
@@ -336,7 +662,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppsnippets-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppSnippets"
+      "upstreamFolderName": "NppSnippets",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "npptasklist",
@@ -348,7 +675,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/npptasklist-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppTaskList"
+      "upstreamFolderName": "NppTaskList",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "npptextviz",
@@ -360,7 +688,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/npptextviz-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppTextViz"
+      "upstreamFolderName": "NppTextViz",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "nppvim",
@@ -372,7 +701,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/nppvim-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "NppVim"
+      "upstreamFolderName": "NppVim",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "openselection",
@@ -384,7 +714,34 @@
       "repository": "",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "OpenSelection"
+      "upstreamFolderName": "OpenSelection",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "plantumlviewer",
+      "name": "PlantUML Viewer",
+      "version": "1.0.0",
+      "description": "Generate, view and export PlantUML diagrams. macOS native port (CLI wrapper).",
+      "author": "Philipp Schmidt",
+      "homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/plantumlviewer-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "PlantUmlViewer",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "poormantsqlformatter",
+      "name": "Poor Man's T-Sql Formatter",
+      "version": "1.0.0",
+      "description": "Simple SQL formatter performing full multi-batch T-SQL formatting. macOS native port (CLI wrapper).",
+      "author": "Tao Klerks",
+      "homepage": "http://architectshack.com/PoorMansTSqlFormatter.ashx",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/poormantsqlformatter-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "PoorMansTSqlFormatterNppPlugin",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "pork2sausage",
@@ -396,7 +753,73 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/pork2sausage-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.4.7,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "pork2sausage"
+      "upstreamFolderName": "pork2sausage",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "previewhtml",
+      "name": "Preview HTML",
+      "version": "1.0.0",
+      "description": "Preview HTML files inside an embedded browser. macOS stub — needs native HTML preview (WKWebView).",
+      "author": "Martijn Coppoolse",
+      "homepage": "https://github.com/rdipardo/npp_preview",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/previewhtml-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "PreviewHTML",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "pycalc",
+      "name": "pycalc",
+      "version": "1.0.0",
+      "description": "Execute python code directly within the editor. macOS native port (CLI wrapper).",
+      "author": "pycalc",
+      "homepage": "https://github.com/pycalc-plugin/notepad-plus-plus",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/pycalc-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "pycalc",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "pynpp",
+      "name": "PyNPP",
+      "version": "1.0.0",
+      "description": "Run Python scripts from Notepad++. macOS native port (CLI wrapper).",
+      "author": "Abdullah Diab",
+      "homepage": "https://mpcabd.xyz/notepad-plugin-to-run-python-scripts/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/pynpp-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "PyNPP",
+      "upstreamOrigin": "x86"
+    },
+    {
+      "identifier": "pythonscript",
+      "name": "PythonScript",
+      "version": "1.0.0",
+      "description": "Python Script plugin. macOS native port (CLI wrapper).",
+      "author": "Dave Brotherstone + Jocelyn Legault",
+      "homepage": "https://github.com/bruderstein/PythonScript",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/pythonscript-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "PythonScript",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "quickopenplugin",
+      "name": "QuickOpenPlugin",
+      "version": "1.0.0",
+      "description": "Quick open selected file. macOS stub — needs native fuzzy quick-open panel.",
+      "author": "Sandor Gezel",
+      "homepage": "https://sourceforge.net/projects/quickopenplugin/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/quickopenplugin-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "QuickOpenPlugin",
+      "upstreamOrigin": "x86"
     },
     {
       "identifier": "rascript",
@@ -408,7 +831,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/rascript-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "RAScript"
+      "upstreamFolderName": "RAScript",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "remove-duplicate-lines",
+      "name": "Remove Duplicate Lines",
+      "version": "1.0.0",
+      "description": "Remove duplicate lines without removing empty lines. macOS native port (CLI wrapper).",
+      "author": "G. Singh",
+      "homepage": "https://github.com/gurikbal/Remove_dup_lines",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/remove-duplicate-lines-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "Remove Duplicate Lines",
+      "upstreamOrigin": "x64"
     },
     {
       "identifier": "runme",
@@ -420,7 +857,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/runme-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "RunMe"
+      "upstreamFolderName": "RunMe",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "rustnpp",
@@ -432,7 +870,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/rustnpp-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "rustnpp"
+      "upstreamFolderName": "rustnpp",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "securepad",
@@ -444,7 +883,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/securepad-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "SecurePad"
+      "upstreamFolderName": "SecurePad",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "selectnlaunch",
@@ -456,7 +896,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/selectnlaunch-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "selectNLaunch"
+      "upstreamFolderName": "selectNLaunch",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "selecttoclipboard",
@@ -468,7 +909,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/selecttoclipboard-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "SelectToClipboard"
+      "upstreamFolderName": "SelectToClipboard",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "sessionmgr",
@@ -480,7 +922,8 @@
       "repository": "",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "SessionMgr"
+      "upstreamFolderName": "SessionMgr",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "speechplugin",
@@ -492,7 +935,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/speechplugin-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "SpeechPlugin"
+      "upstreamFolderName": "SpeechPlugin",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "stayawake_npp",
@@ -504,7 +948,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/stayawake_npp-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "StayAwake_NPP"
+      "upstreamFolderName": "StayAwake_NPP",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "takenotes",
@@ -516,7 +961,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/takenotes-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "TakeNotes"
+      "upstreamFolderName": "TakeNotes",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "tcsyslogfinder",
@@ -528,7 +974,21 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/tcsyslogfinder-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.0,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "TCSyslogFinder"
+      "upstreamFolderName": "TCSyslogFinder",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "tidy2",
+      "name": "Tidy2",
+      "version": "1.0.0",
+      "description": "HTML Tidy with support for HTML5. macOS native port (CLI wrapper).",
+      "author": "Dave Brotherstone",
+      "homepage": "https://code.google.com/p/npp-tidy2/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/tidy2-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "Tidy2",
+      "upstreamOrigin": "x86"
     },
     {
       "identifier": "topmost",
@@ -540,7 +1000,8 @@
       "repository": "",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "TopMost"
+      "upstreamFolderName": "TopMost",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "urlplugin",
@@ -552,7 +1013,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/urlplugin-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "urlPlugin"
+      "upstreamFolderName": "urlPlugin",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "virtualfolders",
@@ -564,7 +1026,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/virtualfolders-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.8.5,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "VirtualFolders"
+      "upstreamFolderName": "VirtualFolders",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "vscodekeymapnpp",
@@ -576,7 +1039,8 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/vscodekeymapnpp-1.0.0.zip",
       "nppMacCompatibleVersions": "[8.8.6,]",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "VSCodeKeymapNpp"
+      "upstreamFolderName": "VSCodeKeymapNpp",
+      "upstreamOrigin": "arm64"
     },
     {
       "identifier": "webedit",
@@ -588,7 +1052,47 @@
       "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/webedit-1.0.0.zip",
       "nppMacCompatibleVersions": "",
       "upstreamWindowsDLL": false,
-      "upstreamFolderName": "WebEdit"
+      "upstreamFolderName": "WebEdit",
+      "upstreamOrigin": "arm64"
+    },
+    {
+      "identifier": "xbrackets",
+      "name": "XBrackets Lite",
+      "version": "1.0.0",
+      "description": "Autocompletion of brackets. macOS native port (CLI wrapper).",
+      "author": "Vitaliy Dovgan",
+      "homepage": "https://github.com/d0vgan/npp-XBracketsLite",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/xbrackets-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "XBrackets",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "xmltools",
+      "name": "XML Tools",
+      "version": "1.0.0",
+      "description": "Small set of useful tools for editing XML. macOS native port (CLI wrapper).",
+      "author": "Nicolas Crittin",
+      "homepage": "https://github.com/morbac/xmltools",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/xmltools-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "XMLTools",
+      "upstreamOrigin": "x64"
+    },
+    {
+      "identifier": "xpatherizer",
+      "name": "XPatherizerNPP",
+      "version": "1.0.0",
+      "description": "Analyze multiple XPath queries with reverse lookup. macOS native port (CLI wrapper).",
+      "author": "bguenthner",
+      "homepage": "https://code.google.com/p/xpatherizernpp/",
+      "repository": "https://github.com/RuyimgByCN/Notepad-macOS-PluginList/releases/download/plugins/xpatherizer-1.0.0.zip",
+      "nppMacCompatibleVersions": "",
+      "upstreamWindowsDLL": false,
+      "upstreamFolderName": "XPatherizerNPP",
+      "upstreamOrigin": "x86"
     }
   ]
 }

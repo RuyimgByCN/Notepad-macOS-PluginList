@@ -1,0 +1,19 @@
+{
+  "identifier": "pynpp",
+  "name": "PyNPP",
+  "version": "1.0.0",
+  "description": "Run Python scripts from Notepad++. macOS native port (CLI wrapper).",
+  "author": "Abdullah Diab",
+  "homepage": "https://mpcabd.xyz/notepad-plugin-to-run-python-scripts/",
+  "entryPoint": "pynpp.sh",
+  "commands": [
+    {
+      "identifier": "run-python",
+      "title": "Run Selection as Python"
+    },
+    {
+      "identifier": "python-version",
+      "title": "Show Python Version"
+    }
+  ]
+}

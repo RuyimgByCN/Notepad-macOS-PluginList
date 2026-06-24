@@ -172,3 +172,24 @@ esac
 ---
 
 > 维护者：当某个插件有了 macOS 原生实现后，请更新 `mac-arm64.json` 中对应条目的 `upstreamWindowsDLL` 为 `false`，填写 `repository` 为原生 zip 下载地址，并在此文件中标注完成日期。
+
+---
+
+## 扩展集（2026-06-24 新增 35 个）
+
+主集（上游 `pl.arm64.json` 54 个）之外，从上游 `pl.x64.json`/`pl.x86.json` 精选纳入 35 个跨平台可行的高价值插件。完整设计见 `docs/superpowers/specs/2026-06-24-windows-highvalue-plugins-intake-design.md`。
+
+| 形态 | 数量 | 说明 |
+|------|------|------|
+| 完整实现（CLI 包装） | 23 | 纯文本变换/格式化/脚本执行，python3 + macOS 自带工具，开箱即用 |
+| stub 占位 | 12 | 需原生 Swift UI（NSOutlineView/WKWebView 等），当前为 manifest + 提示脚本 |
+
+**完整实现批（23）**：xmltools, xpatherizer, jsontools, csvlint, poormantsqlformatter, tidy2, nppexec, pythonscript, pynpp, pycalc, npphasher, remove-duplicate-lines, nppregextractor, xbrackets, bracketscheck, autocodepage, nppeditorconfig, codealignment, columnsplusplus, analyseplugin, plantumlviewer, dspellcheck, colorpicker
+
+**stub 批（12）**：explorer, fileswitcher, quickopenplugin, markdownviewerplusplus, nppmarkdownpanel, previewhtml, doxyit, nppmenusearch, gitscm, nppfavorites, multiclipboard, indentbyfold
+
+**来源平台分布**：27 个 `x64` + 8 个 `x86`（colorpicker / fileswitcher / multiclipboard / npphasher / pynpp / quickopenplugin / tidy2 / xpatherizer）。
+
+**外部依赖**（脚本内 `command -v` 检查 + 安装提示）：`hunspell`（dspellcheck）、`tidy`（tidy2）、`plantuml`（plantumlviewer）；其余零依赖。
+
+**生成入口**：`python3 scripts/generate_extended_plugins.py`（同时生成 35 个插件目录并更新两个 JSON 目录）。打包：`python3 scripts/package_plugins.py`。

@@ -1,0 +1,19 @@
+{
+  "identifier": "quickopenplugin",
+  "name": "QuickOpenPlugin",
+  "version": "1.0.0",
+  "description": "Quick open selected file. macOS stub — needs native fuzzy quick-open panel.",
+  "author": "Sandor Gezel",
+  "homepage": "https://sourceforge.net/projects/quickopenplugin/",
+  "entryPoint": "quickopenplugin.sh",
+  "commands": [
+    {
+      "identifier": "open-selected",
+      "title": "Open Selected File Path"
+    },
+    {
+      "identifier": "quick-open",
+      "title": "Quick Open File"
+    }
+  ]
+}

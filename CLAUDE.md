@@ -17,8 +17,8 @@ Notepad-macOS 的插件目录仓库，作用等同于上游 Notepad++ 的
 
 | 文件 | 内容 | 条目数 |
 |------|------|--------|
-| `mac-arm64.json` | 全量目录（含所有已知插件） | 54 |
-| `mac-arm64-portable.json` | 可移植子集（排除明显仅 Windows 的插件） | 50 |
+| `mac-arm64.json` | 全量目录（含所有已知插件） | 89 |
+| `mac-arm64-portable.json` | 可移植子集（排除明显仅 Windows 的插件） | 84 |
 
 - `mac-arm64-portable.json` **必须是 `mac-arm64.json` 的子集**，不能包含全量文件中不存在的条目。
 - 两个文件中的同一条目 `identifier`、`version`、`repository` 等关键字段必须一致。
@@ -39,6 +39,7 @@ Notepad-macOS 的插件目录仓库，作用等同于上游 Notepad++ 的
 | `nppMacCompatibleVersions` | string | 语义版本区间（如 `[8.9.6,]` 表示 ≥8.9.6） |
 | `upstreamWindowsDLL` | boolean | `true`=引用上游 Windows DLL，需 macOS 原生重实现；`false`=已有原生 macOS 插件 |
 | `upstreamFolderName` | string | 上游原文件夹名，用于交叉引用 |
+| `upstreamOrigin` | string | 来源平台：`arm64`（上游 ARM64 目录）/ `x64` / `x86`（扩展集，来自上游 Windows 目录） |
 
 ### 4. macOS 原生插件条目规则
 
@@ -51,16 +52,25 @@ Notepad-macOS 的插件目录仓库，作用等同于上游 Notepad++ 的
 
 ### 5. 与上游 nppPluginList 的关系
 
-- 初始目录从上游 `pl.arm64.json` 转换而来，所有条目初始为 `upstreamWindowsDLL: true`。
-- 当上游 nppPluginList 更新（新增/删除/改版插件）时，本仓库需同步跟进，
-  但仅限于 **ARM64 平台** 的条目。
+目录分两层维护：
+
+- **主集**：上游 `pl.arm64.json` 全量（ARM64 平台），`upstreamOrigin: arm64`，必跟。
+- **扩展集**：上游 `pl.x64.json` / `pl.x86.json` 中跨平台可行的高价值插件，`upstreamOrigin: x64|x86`，精选纳入并需 macOS 实现/stub。
+
+规则：
+- 初始主集从上游 `pl.arm64.json` 转换而来。
+- 当上游 nppPluginList 更新（新增/删除/改版插件）时，本仓库需同步跟进主集（ARM64）。
+- 扩展集条目用 `upstreamOrigin` 标注来源；将来上游 ARM64 目录若补入同名插件，
+  需凭 `upstreamOrigin` + `upstreamFolderName` 识别并合并，避免重复条目。
 - 新增上游条目时，保留其 `upstreamFolderName` 以便交叉对照。
+- 扩展集的纳入清单与设计见 `docs/superpowers/specs/`，生成脚本为
+  `scripts/generate_extended_plugins.py`。
 
 ## 项目结构
 
 ```
-mac-arm64.json            全量插件目录（54 条）
-mac-arm64-portable.json   可移植子集（50 条）
+mac-arm64.json            全量插件目录（89 条 = 54 主集 + 35 扩展集）
+mac-arm64-portable.json   可移植子集（84 条）
 CONVERSION_ROADMAP.md     从上游 nppPluginList 转换的规划记录
 README.md                 用户文档（字段说明、PR 提交指南）
 package.json              包元数据

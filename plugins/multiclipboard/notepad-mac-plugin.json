@@ -1,0 +1,19 @@
+{
+  "identifier": "multiclipboard",
+  "name": "MultiClipboard",
+  "version": "1.0.0",
+  "description": "Multiple text buffers via copying/cutting. macOS stub — needs native clipboard history panel.",
+  "author": "LoonyChewy",
+  "homepage": "https://sourceforge.net/projects/npp-plugins/files/MultiClipboard/",
+  "entryPoint": "multiclipboard.sh",
+  "commands": [
+    {
+      "identifier": "show-history",
+      "title": "Show Clipboard History"
+    },
+    {
+      "identifier": "paste-buffer",
+      "title": "Paste from Buffer"
+    }
+  ]
+}

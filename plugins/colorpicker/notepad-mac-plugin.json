@@ -1,0 +1,19 @@
+{
+  "identifier": "colorpicker",
+  "name": "Don Rowlett Color Picker",
+  "version": "1.0.0",
+  "description": "Select and convert color codes in various formats. macOS native port (CLI wrapper).",
+  "author": "Don Rowlett",
+  "homepage": "https://sourceforge.net/projects/npp-plugins/files/ColorPicker/",
+  "entryPoint": "colorpicker.sh",
+  "commands": [
+    {
+      "identifier": "hex-to-rgb",
+      "title": "Hex to RGB"
+    },
+    {
+      "identifier": "rgb-to-hex",
+      "title": "RGB to Hex"
+    }
+  ]
+}

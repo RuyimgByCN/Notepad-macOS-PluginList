@@ -1,0 +1,19 @@
+{
+  "identifier": "doxyit",
+  "name": "DoxyIt",
+  "version": "1.0.0",
+  "description": "Supports creating Doxygen comments. macOS stub — needs native interactive Doxygen comment editor integration.",
+  "author": "Justin Dailey",
+  "homepage": "https://github.com/dail8859/DoxyIt",
+  "entryPoint": "doxyit.sh",
+  "commands": [
+    {
+      "identifier": "generate-comment",
+      "title": "Generate Doxygen Comment"
+    },
+    {
+      "identifier": "convert-javadoc",
+      "title": "Convert to Javadoc Style"
+    }
+  ]
+}

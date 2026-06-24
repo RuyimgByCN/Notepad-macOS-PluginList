@@ -1,0 +1,23 @@
+{
+  "identifier": "jsontools",
+  "name": "JSON Tools",
+  "version": "1.0.0",
+  "description": "Query/editing tool for JSON including linting, reformatting. macOS native port (CLI wrapper).",
+  "author": "Mark Johnston Olson",
+  "homepage": "https://github.com/molsonkiko/JsonToolsNppPlugin",
+  "entryPoint": "jsontools.sh",
+  "commands": [
+    {
+      "identifier": "format-json",
+      "title": "Format JSON"
+    },
+    {
+      "identifier": "minify-json",
+      "title": "Minify JSON"
+    },
+    {
+      "identifier": "validate-json",
+      "title": "Validate JSON"
+    }
+  ]
+}

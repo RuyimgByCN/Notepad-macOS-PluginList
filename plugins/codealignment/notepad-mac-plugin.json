@@ -1,0 +1,19 @@
+{
+  "identifier": "codealignment",
+  "name": "Code Alignment",
+  "version": "1.0.0",
+  "description": "Code alignment helps you present your code beautifully. macOS native port (CLI wrapper).",
+  "author": "Chris McGrath",
+  "homepage": "https://github.com/cpmcgrath/codealignment",
+  "entryPoint": "codealignment.sh",
+  "commands": [
+    {
+      "identifier": "align-equals",
+      "title": "Align by Equals"
+    },
+    {
+      "identifier": "align-spaces",
+      "title": "Align into Columns"
+    }
+  ]
+}

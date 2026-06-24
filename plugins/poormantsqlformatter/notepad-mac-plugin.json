@@ -1,0 +1,19 @@
+{
+  "identifier": "poormantsqlformatter",
+  "name": "Poor Man's T-Sql Formatter",
+  "version": "1.0.0",
+  "description": "Simple SQL formatter performing full multi-batch T-SQL formatting. macOS native port (CLI wrapper).",
+  "author": "Tao Klerks",
+  "homepage": "http://architectshack.com/PoorMansTSqlFormatter.ashx",
+  "entryPoint": "poormantsqlformatter.sh",
+  "commands": [
+    {
+      "identifier": "format-sql",
+      "title": "Format SQL"
+    },
+    {
+      "identifier": "minify-sql",
+      "title": "Minify SQL"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "identifier": "nppexec",
+  "name": "NppExec",
+  "version": "1.0.0",
+  "description": "Execute commands or saved scripts without leaving Notepad++. macOS native port (CLI wrapper).",
+  "author": "Vitaliy Dovgan",
+  "homepage": "https://github.com/d0vgan/nppexec",
+  "entryPoint": "nppexec.sh",
+  "commands": [
+    {
+      "identifier": "exec-command",
+      "title": "Execute Selection as Command"
+    },
+    {
+      "identifier": "echo-selection",
+      "title": "Echo Selection"
+    }
+  ]
+}

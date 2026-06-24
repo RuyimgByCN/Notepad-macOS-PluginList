@@ -1,0 +1,23 @@
+{
+  "identifier": "xpatherizer",
+  "name": "XPatherizerNPP",
+  "version": "1.0.0",
+  "description": "Analyze multiple XPath queries with reverse lookup. macOS native port (CLI wrapper).",
+  "author": "bguenthner",
+  "homepage": "https://code.google.com/p/xpatherizernpp/",
+  "entryPoint": "xpatherizer.sh",
+  "commands": [
+    {
+      "identifier": "list-elements",
+      "title": "List XML Elements"
+    },
+    {
+      "identifier": "count-elements",
+      "title": "Count XML Elements"
+    },
+    {
+      "identifier": "xpath-query",
+      "title": "Run XPath Query"
+    }
+  ]
+}

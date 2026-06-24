@@ -1,0 +1,23 @@
+{
+  "identifier": "nppregextractor",
+  "name": "NppRegExTractor",
+  "version": "1.0.0",
+  "description": "Search regular expressions and extract matches. macOS native port (CLI wrapper).",
+  "author": "Jan Graefe",
+  "homepage": "https://github.com/viper3400/RegExTractor/wiki/de_userdocumentation",
+  "entryPoint": "nppregextractor.sh",
+  "commands": [
+    {
+      "identifier": "extract-emails",
+      "title": "Extract Email Addresses"
+    },
+    {
+      "identifier": "extract-urls",
+      "title": "Extract URLs"
+    },
+    {
+      "identifier": "extract-ips",
+      "title": "Extract IP Addresses"
+    }
+  ]
+}

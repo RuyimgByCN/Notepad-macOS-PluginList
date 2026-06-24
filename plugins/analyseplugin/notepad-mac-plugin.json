@@ -1,0 +1,19 @@
+{
+  "identifier": "analyseplugin",
+  "name": "AnalysePlugin",
+  "version": "1.0.0",
+  "description": "Search for more than one search pattern at a time. macOS native port (CLI wrapper).",
+  "author": "Mattes H.",
+  "homepage": "https://sourceforge.net/projects/analyseplugin",
+  "entryPoint": "analyseplugin.sh",
+  "commands": [
+    {
+      "identifier": "word-frequency",
+      "title": "Word Frequency (Top 20)"
+    },
+    {
+      "identifier": "line-stats",
+      "title": "Line Statistics"
+    }
+  ]
+}

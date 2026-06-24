@@ -1,0 +1,27 @@
+{
+  "identifier": "xbrackets",
+  "name": "XBrackets Lite",
+  "version": "1.0.0",
+  "description": "Autocompletion of brackets. macOS native port (CLI wrapper).",
+  "author": "Vitaliy Dovgan",
+  "homepage": "https://github.com/d0vgan/npp-XBracketsLite",
+  "entryPoint": "xbrackets.sh",
+  "commands": [
+    {
+      "identifier": "wrap-paren",
+      "title": "Wrap with Parentheses"
+    },
+    {
+      "identifier": "wrap-bracket",
+      "title": "Wrap with Brackets"
+    },
+    {
+      "identifier": "wrap-brace",
+      "title": "Wrap with Braces"
+    },
+    {
+      "identifier": "wrap-quote",
+      "title": "Wrap with Double Quotes"
+    }
+  ]
+}

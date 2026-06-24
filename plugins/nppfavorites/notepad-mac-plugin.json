@@ -1,0 +1,19 @@
+{
+  "identifier": "nppfavorites",
+  "name": "NppFavorites",
+  "version": "1.0.0",
+  "description": "Favorites plugin. macOS stub — needs native favorites panel.",
+  "author": "Helder Sepulveda",
+  "homepage": "https://github.com/heldersepu/nppfavorites",
+  "entryPoint": "nppfavorites.sh",
+  "commands": [
+    {
+      "identifier": "list-favorites",
+      "title": "List Favorites"
+    },
+    {
+      "identifier": "add-favorite",
+      "title": "Add to Favorites"
+    }
+  ]
+}

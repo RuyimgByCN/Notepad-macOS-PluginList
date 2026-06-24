@@ -1,0 +1,19 @@
+{
+  "identifier": "pythonscript",
+  "name": "PythonScript",
+  "version": "1.0.0",
+  "description": "Python Script plugin. macOS native port (CLI wrapper).",
+  "author": "Dave Brotherstone + Jocelyn Legault",
+  "homepage": "https://github.com/bruderstein/PythonScript",
+  "entryPoint": "pythonscript.sh",
+  "commands": [
+    {
+      "identifier": "exec-python",
+      "title": "Execute Selection as Python"
+    },
+    {
+      "identifier": "eval-python",
+      "title": "Eval Selection"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "identifier": "gitscm",
+  "name": "GitSCM",
+  "version": "1.0.0",
+  "description": "GUI for already installed Git SCM. macOS stub — needs native full Git GUI panel.",
+  "author": "Michael J. Vincent",
+  "homepage": "https://github.com/vinsworldcom/nppGitSCM",
+  "entryPoint": "gitscm.sh",
+  "commands": [
+    {
+      "identifier": "git-status",
+      "title": "Git Status"
+    },
+    {
+      "identifier": "git-branch",
+      "title": "Git Branch"
+    },
+    {
+      "identifier": "git-log",
+      "title": "Git Log (last 10)"
+    },
+    {
+      "identifier": "full-gui",
+      "title": "Open Full Git GUI"
+    }
+  ]
+}

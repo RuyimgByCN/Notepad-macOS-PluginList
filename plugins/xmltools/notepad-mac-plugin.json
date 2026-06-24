@@ -1,0 +1,23 @@
+{
+  "identifier": "xmltools",
+  "name": "XML Tools",
+  "version": "1.0.0",
+  "description": "Small set of useful tools for editing XML. macOS native port (CLI wrapper).",
+  "author": "Nicolas Crittin",
+  "homepage": "https://github.com/morbac/xmltools",
+  "entryPoint": "xmltools.sh",
+  "commands": [
+    {
+      "identifier": "format-xml",
+      "title": "Format XML"
+    },
+    {
+      "identifier": "validate-xml",
+      "title": "Validate XML"
+    },
+    {
+      "identifier": "escape-xml",
+      "title": "Escape XML Special Characters"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "identifier": "csvlint",
+  "name": "CSV Lint",
+  "version": "1.0.0",
+  "description": "Syntax highlighting and quality control for csv and fixed width data. macOS native port (CLI wrapper).",
+  "author": "Bas de Reuver",
+  "homepage": "https://github.com/BdR76/CSVLint/",
+  "entryPoint": "csvlint.sh",
+  "commands": [
+    {
+      "identifier": "validate-csv",
+      "title": "Validate CSV"
+    },
+    {
+      "identifier": "csv-to-json",
+      "title": "CSV to JSON"
+    }
+  ]
+}

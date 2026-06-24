@@ -1,0 +1,15 @@
+{
+  "identifier": "pycalc",
+  "name": "pycalc",
+  "version": "1.0.0",
+  "description": "Execute python code directly within the editor. macOS native port (CLI wrapper).",
+  "author": "pycalc",
+  "homepage": "https://github.com/pycalc-plugin/notepad-plus-plus",
+  "entryPoint": "pycalc.sh",
+  "commands": [
+    {
+      "identifier": "calc",
+      "title": "Evaluate Selection"
+    }
+  ]
+}

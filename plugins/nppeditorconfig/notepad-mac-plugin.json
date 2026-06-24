@@ -1,0 +1,19 @@
+{
+  "identifier": "nppeditorconfig",
+  "name": "EditorConfig",
+  "version": "1.0.0",
+  "description": "EditorConfig defines coding conventions for a project. macOS native port (CLI wrapper).",
+  "author": "EditorConfig Team",
+  "homepage": "https://github.com/editorconfig/editorconfig-notepad-plus-plus",
+  "entryPoint": "nppeditorconfig.sh",
+  "commands": [
+    {
+      "identifier": "parse-editorconfig",
+      "title": "Parse .editorconfig"
+    },
+    {
+      "identifier": "show-indent",
+      "title": "Show Indent Style"
+    }
+  ]
+}

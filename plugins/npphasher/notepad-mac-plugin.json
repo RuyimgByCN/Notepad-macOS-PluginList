@@ -1,0 +1,27 @@
+{
+  "identifier": "npphasher",
+  "name": "NppHash",
+  "version": "1.0.0",
+  "description": "Computes the hash of selected text. macOS native port (CLI wrapper).",
+  "author": "Don HO",
+  "homepage": "https://github.com/npp-plugins/hasher",
+  "entryPoint": "npphasher.sh",
+  "commands": [
+    {
+      "identifier": "md5",
+      "title": "MD5 Hash"
+    },
+    {
+      "identifier": "sha256",
+      "title": "SHA-256 Hash"
+    },
+    {
+      "identifier": "base64-encode",
+      "title": "Base64 Encode"
+    },
+    {
+      "identifier": "base64-decode",
+      "title": "Base64 Decode"
+    }
+  ]
+}

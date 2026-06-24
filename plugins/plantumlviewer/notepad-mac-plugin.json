@@ -1,0 +1,23 @@
+{
+  "identifier": "plantumlviewer",
+  "name": "PlantUML Viewer",
+  "version": "1.0.0",
+  "description": "Generate, view and export PlantUML diagrams. macOS native port (CLI wrapper).",
+  "author": "Philipp Schmidt",
+  "homepage": "https://github.com/Fruchtzwerg94/PlantUmlViewer",
+  "entryPoint": "plantumlviewer.sh",
+  "commands": [
+    {
+      "identifier": "extract-diagrams",
+      "title": "Extract PlantUML Blocks"
+    },
+    {
+      "identifier": "validate-syntax",
+      "title": "Validate PlantUML Syntax"
+    },
+    {
+      "identifier": "render-to-file",
+      "title": "Render Diagram to PNG"
+    }
+  ]
+}

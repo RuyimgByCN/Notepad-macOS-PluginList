@@ -1,0 +1,23 @@
+{
+  "identifier": "remove-duplicate-lines",
+  "name": "Remove Duplicate Lines",
+  "version": "1.0.0",
+  "description": "Remove duplicate lines without removing empty lines. macOS native port (CLI wrapper).",
+  "author": "G. Singh",
+  "homepage": "https://github.com/gurikbal/Remove_dup_lines",
+  "entryPoint": "remove-duplicate-lines.sh",
+  "commands": [
+    {
+      "identifier": "remove-dups",
+      "title": "Remove Duplicate Lines"
+    },
+    {
+      "identifier": "sort-unique",
+      "title": "Sort and Unique"
+    },
+    {
+      "identifier": "count-duplicates",
+      "title": "Count Duplicate Lines"
+    }
+  ]
+}

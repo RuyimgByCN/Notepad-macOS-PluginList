@@ -1,2 +1,6 @@
 # Packaged release archives (built artifacts, published as GitHub release assets)
 dist/
+
+# Python bytecode cache
+__pycache__/
+*.pyc

@@ -1,0 +1,19 @@
+{
+  "identifier": "columnsplusplus",
+  "name": "Columns++",
+  "version": "1.0.0",
+  "description": "Features for working with text and data arranged in columns. macOS native port (CLI wrapper).",
+  "author": "Randall Joseph Fellmy",
+  "homepage": "https://github.com/Coises/ColumnsPlusPlus",
+  "entryPoint": "columnsplusplus.sh",
+  "commands": [
+    {
+      "identifier": "align-columns",
+      "title": "Align Columns"
+    },
+    {
+      "identifier": "column-info",
+      "title": "Column Info"
+    }
+  ]
+}
